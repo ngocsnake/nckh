@@ -1,0 +1,43 @@
+{
+    "name": "NCKH_CovidVN",
+    "version": "1.0.0",
+    "description": "",
+    "main": "F:\\NCKH_CovidVN\\src\\index.js",
+    "scripts": {
+        "start": "nodemon --inspect F:\\NCKH_CovidVN\\src\\index.js",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "watch": "node-sass --watch F:\\NCKH_CovidVN\\src\\resources\\scss\\ --output F:\\NCKH_CovidVN\\src\\resources\\public\\css\\"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ngocsnake/NCKH_CovidVN.git"
+    },
+    "keywords": [
+        "NCKH_CovidVN"
+    ],
+    "author": "pano",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/ngocsnake/NCKH_CovidVN/issues"
+    },
+    "homepage": "https://github.com/ngocsnake/NCKH_CovidVN#readme",
+    "dependencies": {
+        "express": "^4.17.1",
+        "express-handlebars": "^5.3.3",
+        "fs": "0.0.1-security",
+        "method-override": "^3.0.0",
+        "mongoose": "^6.0.5",
+        "mongoose-delete": "^0.5.4",
+        "mongoose-sequence": "^5.3.1",
+        "mongoose-slug-generator": "^1.0.4",
+        "mysql": "^2.18.1",
+        "node-fetch": "^2.6.1",
+        "npm-git-install": "^0.3.0",
+        "request": "^2.88.2"
+    },
+    "devDependencies": {
+        "morgan": "^1.10.0",
+        "node-sass": "^6.0.1",
+        "nodemon": "^2.0.12"
+    }
+}
