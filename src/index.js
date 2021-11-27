@@ -11,7 +11,7 @@ const route = require('./routes');
 const app = express();
 
 const port = 3003;
-app.listen(process.env.PORT)
+app.listen(process.env.PORT || 3003)
 
 
 const helper = require('../src/app/helpers')

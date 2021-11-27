@@ -1,13 +1,13 @@
 const { join } = require("path");
 const { readdirSync } = require("fs");
-const path = "./src/resources/gis";
 class HomeController {
     // [GET] /
     index(req, res, next) {
-        const commandFiles = readdirSync(path).filter((file) => file.endsWith(".js"));
+        const commandFiles = readdirSync(join(__dirname, "gis")).filter((file) => file.endsWith(".js"));
+        console.log(commandFiles);
         let geojsonOutput = [];
         for (const file of commandFiles) {
-            const command = require(join(path, `${file}`));
+            const command = require(join(__dirname, "gis", `${file}`));
             geojsonOutput.push(command);
         }
 
