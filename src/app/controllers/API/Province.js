@@ -1,6 +1,6 @@
 const { join } = require("path");
 const { readdirSync } = require("fs");
-const path = "F:/NCKH_CovidVN/src/resources/gis";
+const path = "./src/resources/gis";
 class HomeController {
     // [GET] /
     index(req, res, next) {
@@ -10,7 +10,7 @@ class HomeController {
             const command = require(join(path, `${file}`));
             geojsonOutput.push(command);
         }
-        
+
 
         res.json(geojsonOutput)
     }
