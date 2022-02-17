@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covid VietNam</title>
+    {{!-- link font Roboto --}}
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+
+    {{!-- leaflet css --}}
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+
+    {{!-- FONT AWESOME --}}
+    <link rel="stylesheet" href="https://kit-pro.fontawesome.com/releases/v5.15.4/css/pro.min.css">
+
+    <link rel="icon" href="img/logo.png">
+    <link rel="stylesheet" href="css/app.css">
+
+</head>
+
+<body>
+    <div id="app">
+        <div id="header">
+            <div class="left">
+                <img class="logo" src="img/logo.png" width="60">
+                <div class="title">
+                    <h2 class="title">
+                        BẢN ĐỒ THÔNG TIN DỊCH TỄ COVID 19 - VIỆT NAM
+                    </h2>
+                    <h4>Vì sự an toàn của người dân</h4>
+                </div>
+            </div>
+            <div class="right">
+                <h4>Đường dây nóng</h4>
+                <h2>0969.082.115</h2>
+                <h4>-</h4>
+                <h2>0948.396.115</h2>
+            </div>
+        </div>
+        <div id="body">
+            <div id="navbar">
+                <a href="/">
+                    <i class="nut active fal fa-map-marker-alt"></i>
+                </a>
+                <a href="/news">
+                    <i class="nut fal fa-newspaper"></i>
+                </a>
+            </div>
+            {{{body}}}
+        </div>
+    </div>
+
+    <script>
+        const nuts = document.querySelectorAll('.nut');
+
+        if (window.location.href.indexOf("news") != -1) {
+            nuts[1].classList.add('active');
+            nuts[0].classList.remove('active');
+        } else {
+            nuts[0].classList.add('active');
+            nuts[1].classList.remove('active');
+        }
+    </script>
+</body>
+
+</html>
+
+<!-- leaflet js  -->
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+<script src="/js/script.js"></script>

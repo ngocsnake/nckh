@@ -1,9 +1,7 @@
-module.exports =
-{
+module.exports = {
     "level1_id": "79",
     "name": "TP. Hồ Chí Minh",
-    "level2s": [
-        {
+    "level2s": [{
             "level2_id": "760",
             "name": "Quận 1",
             "coordinates": [

@@ -1,53 +1,100 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WebGis Covid VN</title>
-
-    <!-- leaflet css  -->
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
-
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-        }
-
-        #map {
-            width: 100%;
-            height: 100%;
-        }
-        #info {
-            width: 200px;
-            height: 130px;
-            position: absolute;
-            top: 0;
-            left: 0;
-            background-color: white;
-        }
-        #app{
-            width: 100vw;
-            height: 100vh;
-        }
-    </style>
-</head>
-
-<body>
-    <div id="app">
-        <div id="info">
-            1
+<div id="map" class="leaflet-control coordinate">
+</div>
+<div id="info">
+    <div id="cityname">
+        Thành Phố Hà Nội
+    </div>
+    <div>
+        <i id="lastUpdate">Cập nhật lần cuối vào</i>
+    </div>
+    <div class="info1">
+        <table class="table1">
+            <tr>
+                <td>Ca dương tính</td>
+                <td style="text-align: right" id="ca-duong-tinh">0</td>
+            </tr>
+            <tr>
+                <td>Ca trong ngày</td>
+                <td style="text-align: right" id="ca-duong-tinh-trong-ngay">0</td>
+            </tr>
+            <tr>
+                <td>Ca tử vong</td>
+                <td style="text-align: right" id="ca-tu-vong">0</td>
+            </tr>
+            <tr>
+                <td>Ca hồi phục</td>
+                <td style="text-align: right" id="ca-hoi-phuc">0</td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td>Dân số</td>
+                <td style="text-align: right" id="dan-so">0</td>
+            </tr>
+            <tr>
+                <td>Tiêm mũi 1</td>
+                <td style="text-align: right" id="tiem-mui-1">0</td>
+            </tr>
+            <tr>
+                <td>Tiêm mũi 2</td>
+                <td style="text-align: right" id="tiem-mui-2">0</td>
+            </tr>
+            <tr>
+                <td>Tiêm mũi 3</td>
+                <td style="text-align: right" id="tiem-mui-3">0</td>
+            </tr>
+        </table>
+    </div>
+    <div id="ttqh" class="scrollbar" id="style-2">
+        <div class="dflex-spaceb thead">
+            <div><b>ĐỊA PHƯƠNG</b></div>
+            <div><b>CA DƯƠNG TÍNH</b></div>
         </div>
-        <div id="map" style="margin-top: 100px">
-            <div class="leaflet-control coordinate"></div>
+        <div id="thong-tin-quan-huyen">
+
         </div>
     </div>
-</body>
+    {{!-- <p>Click the button to get your coordinates.</p>
 
-</html>
+    <button onclick="getLocation()">Try It</button>
 
-<!-- leaflet js  -->
-<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
-<!-- <script src="./hanoi.js"></script> -->
-<script src="/js/script.js"></script>
+    <p id="demo"></p> --}}
+
+    <script>
+        var x = document.getElementById("demo");
+        function getLocation() {
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(showPosition);
+            } else {
+                x.innerHTML = "Geolocation is not supported by this browser.";
+            }
+        }
+
+        function showPosition(position) {
+            x.innerHTML = "Latitude: " + position.coords.latitude +
+                "<br>Longitude: " + position.coords.longitude;
+            map.flyTo([position.coords.latitude, position.coords.longitude]);
+            L.marker([position.coords.latitude, position.coords.longitude], 7).addTo(map);
+        }
+
+    </script>
+</div>
+<div id="level">
+    <div class="lv">
+        <div class="boxc" style="background-color: #ED2625"> </div>
+        <div>Cấp 4</div>
+    </div>
+    <div class="lv">
+        <div class="boxc" style="background-color: #F36B21"> </div>
+        <div>Cấp 3</div>
+    </div>
+    <div class="lv">
+        <div class="boxc" style="background-color: #FEF22F"> </div>
+        <div>Cấp 2</div>
+    </div>
+    <div class="lv">
+        <div class="boxc" style="background-color: #43B549"> </div>
+        <div>Cấp 1</div>
+    </div>
+</div>
+</div>
