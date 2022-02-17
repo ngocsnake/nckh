@@ -72,7 +72,7 @@ function getInfoVaccinByCityName(VaccinData, tenThanhPho) {
 }
 
 async function loadMap() {
-    const response = await fetch('http://localhost:3003/api/datacovid').then(response => response.json());
+    const response = await fetch('https://covidgis.herokuapp.com/api/datacovid').then(response => response.json());
     const datacovid = response.locations;
 
 
