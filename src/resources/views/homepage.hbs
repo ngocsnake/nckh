@@ -74,7 +74,8 @@
             x.innerHTML = "Latitude: " + position.coords.latitude +
                 "<br>Longitude: " + position.coords.longitude;
             map.flyTo([position.coords.latitude, position.coords.longitude]);
-            L.marker([position.coords.latitude, position.coords.longitude], 7).addTo(map);
+            var me = L.marker([position.coords.latitude, position.coords.longitude], 7).addTo(map);
+            //map.removeLayer(me);
         }
 
     </script>
@@ -96,5 +97,11 @@
         <div class="boxc" style="background-color: #43B549"> </div>
         <div>Cấp 1</div>
     </div>
+    {{!-- <div class="lv" onclick="addMarkers()">
+        <div>Them</div>
+    </div>
+    <div class="lv" onclick="removeMarkers()">
+        <div>Xoa</div>
+    </div> --}}
 </div>
 </div>

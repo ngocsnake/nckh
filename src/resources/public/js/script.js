@@ -6,9 +6,6 @@
 //         d > 100 ? '#ECE182' :
 //         '#E7E7E7';
 // }
-function randomIntFromInterval(min, max) {
-    return Math.floor(Math.random() * (max - min + 1) + min)
-}
 
 function getColor(d) {
     return d > 100000 ? '#ED2625' :
@@ -29,8 +26,33 @@ function style(feature) {
     };
 }
 
+var hospitalIcon = new L.Icon({
+    iconUrl: 'img/hospital.png',
+    iconSize: [25, 41],
+    iconAnchor: [12, 41],
+    popupAnchor: [1, -34],
+    shadowSize: [41, 41]
+});
 
 var map = L.map('map').setView([21, 105.75], 7);
+
+let markers = []
+
+function addMarkers() {
+    for (var i = 0; i <= 10; i++) {
+        let marker = L.marker([21, 105.75 + i], { icon: hospitalIcon }).addTo(map);
+        markers.push(marker)
+    }
+}
+
+function removeMarkers() {
+    console.log(markers);
+    markers.forEach(marker => {
+        map.removeLayer(marker)
+    })
+    markers = [];
+}
+
 /*==============================================
             Thêm Nền Cho Bản Đồ
 ================================================*/
@@ -59,20 +81,9 @@ googleStreets.addTo(map);
 /*==============================================
             GEOJSON
 ================================================*/
-function getInfoByCityName(locations, tenThanhPho) {
-    return locations.find(thanhPho => {
-        return thanhPho.name == tenThanhPho;
-    });
-}
-
-function getInfoVaccinByCityName(VaccinData, tenThanhPho) {
-    return VaccinData.find(thanhPho => {
-        return thanhPho.provinceName == tenThanhPho;
-    });
-}
-
 async function loadMap() {
     const response = await fetch('http://localhost:3003/api/datacovid').then(response => response.json());
+    console.log(response);
     const datacovid = response.locations;
 
 
@@ -171,43 +182,15 @@ function onClick(data) {
     const thongTinQuanHuyen = document.querySelector('#thong-tin-quan-huyen');
     let htmls = '';
 
-    const trungBinh = Math.round(soCaNhiem / diaPhuong.length);
-
-    console.log(trungBinh);
-    diaPhuong.forEach(qh => {
-        htmls +=
-            `<div class="dflex-spaceb te">
+    if (diaPhuong) {
+        diaPhuong.forEach(qh => {
+            htmls +=
+                `<div class="dflex-spaceb te">
                 <div>${qh.name}</div>
-                <div>${new Intl.NumberFormat().format(randomIntFromInterval(trungBinh / 2, trungBinh * 1.5))}</div>
+                <div><b>${new Intl.NumberFormat().format(qh.properties.cases)}</b></div>
             </div>`
-    })
+        })
+    }
 
     thongTinQuanHuyen.innerHTML = htmls;
 }
-
-/*==============================================
-                LEAFLET EVENTS
-================================================*/
-// map.on('mouseover', function () {
-//     console.log('your mouse is over the map')
-// })
-
-// map.on('mousemove', function (e) {
-//     document.getElementsByClassName('coordinate')[0].innerHTML = 'lat: ' + e.latlng.lat + '---lng: ' + e.latlng.lng;
-//     console.log('lat: ' + e.latlng.lat, 'lng: ' + e.latlng.lng)
-// })
-
-/*==============================================
-                    MARKER
-================================================*/
-// var myIcon = L.icon({
-//     iconUrl: 'https://stttt.thuathienhue.gov.vn/UploadFiles/TinTuc/2015/5/8/chien_si_hai_quan.jpg',
-//     iconSize: [40, 40],
-// });
-// var singleMarker = L.marker([21.042626479548545, 105.7750433833395], { icon: myIcon, draggable: true });
-// var popup = singleMarker.bindPopup('Hoang Sa Truong Sa la cua Viet Nam. ' + singleMarker.getLatLng()).openPopup()
-// // popup.addTo(map);
-
-
-
-// console.log(singleMarker.toGeoJSON())

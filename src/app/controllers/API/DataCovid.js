@@ -15,6 +15,10 @@ function getInfoVaccinByCityName(VaccinData, tenThanhPho) {
         return thanhPho.provinceName == tenThanhPho;
     });
 }
+
+function randomIntFromInterval(min, max) {
+    return Math.floor(Math.random() * (max - min + 1) + min)
+}
 class CovidData {
     // [GET] /api/coviddata
     async index(req, res, next) {
@@ -33,8 +37,20 @@ class CovidData {
 
         const dataVaccin = Vaccin.List.item;
         Data.forEach(thanhpho => {
-            thanhpho.properties = getInfoByCityName(locations, thanhpho.name);
+            const thongTinThanhPho = getInfoByCityName(locations, thanhpho.name);
+            thanhpho.properties = thongTinThanhPho;
             thanhpho.vaccin = getInfoVaccinByCityName(dataVaccin, thanhpho.name);
+
+
+            const caNhiemThanhPho = thongTinThanhPho.cases;
+            const cacQuanHuyen = thanhpho.level2s;
+
+            if (cacQuanHuyen) {
+                const trungBinh = Math.round(caNhiemThanhPho / cacQuanHuyen.length);
+                cacQuanHuyen.forEach(quanHuyen => {
+                    quanHuyen.properties = { cases: randomIntFromInterval(trungBinh / 2, trungBinh * 1.5) };
+                })
+            }
         });
 
         const DataOutput = {
