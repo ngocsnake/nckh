@@ -10,12 +10,6 @@ const route = require('./routes');
 
 const app = express();
 
-const cors = require('cors');
-app.use(
-    cors({
-        origin: "http://localhost:3003"
-    })
-)
 
 const port = 3003;
 app.listen(process.env.PORT || port)
