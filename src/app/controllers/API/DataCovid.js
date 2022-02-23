@@ -23,6 +23,7 @@ class CovidData {
     // [GET] /api/coviddata
     async index(req, res, next) {
         const baseURL = req.protocol + "://" + req.get('host')
+        console.log(baseURL);
         let covidCase = await axios.get('https://static.pipezero.com/covid/data.json');
 
         let Data = await axios.get(baseURL + '/api/province');
