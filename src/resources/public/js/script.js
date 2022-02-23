@@ -82,8 +82,7 @@ googleStreets.addTo(map);
             GEOJSON
 ================================================*/
 async function loadMap() {
-    const response = await fetch('http://localhost:3003/api/datacovid').then(response => response.json());
-    console.log(response);
+    const response = await fetch('/api/datacovid').then(response => response.json());
     const datacovid = response.locations;
 
 

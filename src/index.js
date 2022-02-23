@@ -15,7 +15,6 @@ const port = 3003;
 app.listen(process.env.PORT || port)
 
 console.log(`http://localhost:${port}/`);
-const helper = require('../src/app/helpers')
 
 // templates engine
 app.engine('hbs', exphbs({

@@ -22,9 +22,11 @@ function randomIntFromInterval(min, max) {
 class CovidData {
     // [GET] /api/coviddata
     async index(req, res, next) {
+        const baseURL = req.protocol + "://" + req.get('host')
         let covidCase = await axios.get('https://static.pipezero.com/covid/data.json');
-        let Data = await axios.get('http://localhost:3003/api/province');
-        let Vaccin = await axios.get('http://localhost:3003/json/Vaccin.json');
+
+        let Data = await axios.get(baseURL + '/api/province');
+        let Vaccin = await axios.get(baseURL + '/json/Vaccin.json');
 
         covidCase = covidCase.data;
         Data = Data.data;
