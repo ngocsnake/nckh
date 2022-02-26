@@ -193,3 +193,12 @@ function onClick(data) {
 
     thongTinQuanHuyen.innerHTML = htmls;
 }
+
+
+const users = [
+    { name: 'John', email: 'John@email.com'},
+    { name: 'Frank', email: 'Frank@email.com'},
+    { name: 'Jasmine', email: 'Jasmine@email.com'}
+];
+
+console.dir(users);

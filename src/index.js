@@ -34,30 +34,5 @@ app.use(express.urlencoded({
 }));
 app.use(express.json());
 
-// var axios = require("axios").default;
-
-// var options = {
-//     method: 'GET',
-//     url: 'https://google-news.p.rapidapi.com/v1/top_headlines',
-//     params: { lang: 'en', country: 'US' },
-//     headers: {
-//         'x-rapidapi-host': 'google-news.p.rapidapi.com',
-//         'x-rapidapi-key': '773aad1f24msh7584c6a89149d00p1e93acjsnce9ea7af9938'
-//     }
-// };
-
-// axios.request(options).then(function(response) {
-//     console.log(response.data);
-// }).catch(function(error) {
-//     console.error(error);
-// });
-
-
-
-
-
-
-
-
 //Route init
 route(app);
