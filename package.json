@@ -39,7 +39,7 @@
         "mysql": "^2.18.1",
         "node-fetch": "^2.6.1",
         "npm-git-install": "^0.3.0",
-        "request": "^2.88.2"
+        "request-promise": "^4.2.6"
     },
     "devDependencies": {
         "morgan": "^1.10.0",
