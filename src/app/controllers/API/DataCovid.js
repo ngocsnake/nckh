@@ -1,4 +1,5 @@
-const axios = require('axios');
+// const axios = require('axios');
+const request = require('request');
 
 function getInfoByCityName(locations, tenThanhPho) {
     return locations.find(thanhPho => {
@@ -23,45 +24,61 @@ class CovidData {
     // [GET] /api/coviddata
     async index(req, res, next) {
         const baseURL = req.protocol + "://" + req.get('host')
-        let covidCase = await axios.get('https://static.pipezero.com/covid/data.json');
+        // let Vaccin = await axios.get(baseURL + '/json/Vaccin.json');
+        let URL = baseURL + '/json/Vaccin.json';
+        console.log(URL);
 
-        let Data = await axios.get(baseURL + '/api/province');
-        let Vaccin = await axios.get(baseURL + '/json/Vaccin.json');
+        const callExternalApiUsingRequest = (callback) => {
+            request(URL, { json: true }, (err, ress, body) => {
+                if (err) {
+                    return callback(err);
+                }
+                return callback(body);
+            });
+        }
 
-        covidCase = covidCase.data;
-        Data = Data.data;
-        Vaccin = Vaccin.data;
-
-        const locations = covidCase.locations;
-        const overview = covidCase.overview;
-        const today = covidCase.today;
-        const total = covidCase.total;
-
-        const dataVaccin = Vaccin.List.item;
-        Data.forEach(thanhpho => {
-            const thongTinThanhPho = getInfoByCityName(locations, thanhpho.name);
-            thanhpho.properties = thongTinThanhPho;
-            thanhpho.vaccin = getInfoVaccinByCityName(dataVaccin, thanhpho.name);
-
-
-            const caNhiemThanhPho = thongTinThanhPho.cases;
-            const cacQuanHuyen = thanhpho.level2s;
-
-            if (cacQuanHuyen) {
-                const trungBinh = Math.round(caNhiemThanhPho / cacQuanHuyen.length);
-                cacQuanHuyen.forEach(quanHuyen => {
-                    quanHuyen.properties = { cases: randomIntFromInterval(trungBinh / 2, trungBinh * 1.5) };
-                })
-            }
+        callExternalApiUsingRequest((data) => {
+            res.json(data)
         });
 
-        const DataOutput = {
-            locations: Data,
-            overview,
-            today,
-            total
-        }
-        res.json(DataOutput)
+        // let covidCase = await axios.get('https://static.pipezero.com/covid/data.json');
+
+        // let Data = await axios.get(baseURL + '/api/province');
+
+        // covidCase = covidCase.data;
+        // Data = Data.data;
+        // Vaccin = Vaccin.data;
+
+        // const locations = covidCase.locations;
+        // const overview = covidCase.overview;
+        // const today = covidCase.today;
+        // const total = covidCase.total;
+
+        // const dataVaccin = Vaccin.List.item;
+        // Data.forEach(thanhpho => {
+        //     const thongTinThanhPho = getInfoByCityName(locations, thanhpho.name);
+        //     thanhpho.properties = thongTinThanhPho;
+        //     thanhpho.vaccin = getInfoVaccinByCityName(dataVaccin, thanhpho.name);
+
+
+        //     const caNhiemThanhPho = thongTinThanhPho.cases;
+        //     const cacQuanHuyen = thanhpho.level2s;
+
+        //     if (cacQuanHuyen) {
+        //         const trungBinh = Math.round(caNhiemThanhPho / cacQuanHuyen.length);
+        //         cacQuanHuyen.forEach(quanHuyen => {
+        //             quanHuyen.properties = { cases: randomIntFromInterval(trungBinh / 2, trungBinh * 1.5) };
+        //         })
+        //     }
+        // });
+
+        // const DataOutput = {
+        //     locations: Data,
+        //     overview,
+        //     today,
+        //     total
+        // }
+        // res.json(DataOutput)
     }
 }
 
