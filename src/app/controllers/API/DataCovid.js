@@ -35,7 +35,7 @@ class CovidData {
             .catch(err => ({ message: err }));
             
         // const Data = await rp(baseURL + '/api/province')
-        const Data = await rp(baseURL + '/json/Province.json')
+        const Data = await rp(baseURL + '/json/Province.min.json')
             .then(data => JSON.parse(data))
             .catch(err => ({ message: err }));
 
