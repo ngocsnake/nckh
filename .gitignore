@@ -1,3 +1,6 @@
 .vscode
 save/
 node_modules/
+
+datacovid.json
+datacovid.lite.json

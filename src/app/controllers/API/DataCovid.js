@@ -33,7 +33,9 @@ class CovidData {
         const covidCase = await rp('https://static.pipezero.com/covid/data.json')
             .then(data => JSON.parse(data))
             .catch(err => ({ message: err }));
-        const Data = await rp(baseURL + '/api/province')
+            
+        // const Data = await rp(baseURL + '/api/province')
+        const Data = await rp(baseURL + '/json/Province.json')
             .then(data => JSON.parse(data))
             .catch(err => ({ message: err }));
 
