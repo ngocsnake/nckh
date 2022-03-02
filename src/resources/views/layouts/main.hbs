@@ -58,10 +58,11 @@
 
     <script>
         window.onload = function () {
+            const baseURL = window.location.origin + '/';
             const nuts = document.querySelectorAll('.nut');
-            let site = window.location.href.replace('http://localhost:3003/', '') || 'homepage';
+            let site = window.location.href.replace(baseURL, '') || 'homepage';
             if (site) {
-                console.log(site);
+                console.log("site", site);
                 nuts.forEach(e => {
                     e.classList.remove('active-navbar')
                 })
