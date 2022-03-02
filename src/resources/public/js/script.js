@@ -46,7 +46,6 @@ function addMarkers() {
 }
 
 function removeMarkers() {
-    console.log(markers);
     markers.forEach(marker => {
         map.removeLayer(marker)
     })

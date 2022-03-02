@@ -1,10 +1,13 @@
-const homeRouter = require('./HomeRouter');
-const newsRouter = require('./NewsRouter');
+
+const HomeRouter = require('./HomeRouter');
+const NewsRouter = require('./NewsRouter');
+const ChartRouter = require('./ChartRouter');
 const API = require('./API');
 
 function route(app) {
-    app.use('/', homeRouter);
-    app.use('/news', newsRouter);
+    app.use('/', HomeRouter);
+    app.use('/news', NewsRouter);
+    app.use('/chart', ChartRouter);
     app.use('/api', API);
 
 }

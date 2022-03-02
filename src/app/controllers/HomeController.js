@@ -1,7 +1,7 @@
 class HomeController {
     // [GET] /
     index(req, res, next) {
-        res.render('homepage')
+        res.render('homepage');
     }
 
     test(req, res, next){

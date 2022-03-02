@@ -43,10 +43,13 @@
         <div id="body">
             <div id="navbar">
                 <a href="/">
-                    <i class="nut active fal fa-map"></i>
+                    <i class="nut homepagebtn fal fa-map"></i>
                 </a>
                 <a href="/news">
-                    <i class="nut fal fa-newspaper"></i>
+                    <i class="nut newsbtn fal fa-newspaper"></i>
+                </a>
+                <a href="/chart">
+                    <i class="nut chartbtn fal fa-analytics"></i>
                 </a>
             </div>
             {{{body}}}
@@ -54,20 +57,19 @@
     </div>
 
     <script>
-        const nuts = document.querySelectorAll('.nut');
-
-        if (window.location.href.indexOf("news") != -1) {
-            nuts[1].classList.add('active');
-            nuts[0].classList.remove('active');
-        } else {
-            nuts[0].classList.add('active');
-            nuts[1].classList.remove('active');
+        window.onload = function () {
+            const nuts = document.querySelectorAll('.nut');
+            let site = window.location.href.replace('http://localhost:3003/', '') || 'homepage';
+            if (site) {
+                console.log(site);
+                nuts.forEach(e => {
+                    e.classList.remove('active-navbar')
+                })
+                const nut = document.querySelector(`.nut.${site}btn`);
+                nut.classList.add('active-navbar');
+            }
         }
     </script>
 </body>
 
 </html>
-
-<!-- leaflet js  -->
-<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
-<script src="/js/script.js"></script>
