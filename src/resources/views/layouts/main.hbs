@@ -52,24 +52,25 @@
                     <i class="nut chartbtn fal fa-analytics"></i>
                 </a>
             </div>
-            {{{body}}}
+            <div id="body-content">
+                {{{body}}}
+            </div>
         </div>
     </div>
 
     <script>
-        window.onload = function () {
-            const baseURL = window.location.origin + '/';
-            const nuts = document.querySelectorAll('.nut');
-            let site = window.location.href.replace(baseURL, '') || 'homepage';
-            if (site) {
-                console.log("site", site);
-                nuts.forEach(e => {
-                    e.classList.remove('active-navbar')
-                })
-                const nut = document.querySelector(`.nut.${site}btn`);
-                nut.classList.add('active-navbar');
-            }
+        const baseURL = window.location.origin + '/';
+        const nuts = document.querySelectorAll('.nut');
+        let site = window.location.href.replace(baseURL, '') || 'homepage';
+        if (site) {
+            console.log("site", site);
+            nuts.forEach(e => {
+                e.classList.remove('active-navbar')
+            })
+            const nut = document.querySelector(`.nut.${site}btn`);
+            nut.classList.add('active-navbar');
         }
+
     </script>
 </body>
 

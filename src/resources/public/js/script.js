@@ -1,12 +1,3 @@
-// function getColor(d) {
-//     return d > 100000 ? '#8A1839' :
-//         d > 10000 ? '#FD6A0B' :
-//         d > 5000 ? '#F8696B' :
-//         d > 500 ? '#F9C467' :
-//         d > 100 ? '#ECE182' :
-//         '#E7E7E7';
-// }
-
 function getColor(d) {
     return d > 100000 ? '#ED2625' :
         d > 10000 ? '#F36B21' :
@@ -51,18 +42,6 @@ function removeMarkers() {
     })
     markers = [];
 }
-
-/*==============================================
-            Thêm Nền Cho Bản Đồ
-================================================*/
-//osm layer
-// const osm = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-//     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-// });
-// osm.addTo(map);
-
-
-// google street 
 const googleStreets = L.tileLayer('http://{s}.google.com/vt/lyrs=m&x={x}&y={y}&z={z}', {
     maxZoom: 20,
     subdomains: ['mt0', 'mt1', 'mt2', 'mt3']
@@ -98,11 +77,7 @@ async function loadMap() {
     });
 
     locations.forEach(khuvuc => {
-        const xMax = khuvuc.bbox[2];
-        const yMax = khuvuc.bbox[3];
-
-        const xMin = khuvuc.bbox[0];
-        const yMin = khuvuc.bbox[1];
+        const coordinates = [khuvuc.bbox[2], khuvuc.bbox[3], khuvuc.bbox[0], khuvuc.bbox[1]];
         const cases = khuvuc.properties.cases;
         var svgElement = document.createElementNS("http://www.w3.org/2000/svg", "svg");
         svgElement.setAttribute('xmlns', "http://www.w3.org/2000/svg");
@@ -117,8 +92,8 @@ async function loadMap() {
                   </g>
                 </svg>`;
         L.svgOverlay(svgElement, [
-            [yMax, xMax],
-            [yMin, xMin]
+            [coordinates[1], coordinates[0]],
+            [coordinates[3], coordinates[2]]
         ]).addTo(map);
     })
 }

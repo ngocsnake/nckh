@@ -7,10 +7,6 @@ class ProvinceController {
         const geojsonOutput = [];
         for (const file of geojsonFiles) {
             const geojson = require(join(__dirname, "gis", `${file}`));
-
-            // if (geojson.level2s)
-            //     geojson.level2s = geojson.level2s.map(qh => ({ ...qh, coordinates: 1 }));
-
             geojsonOutput.push(geojson);
         }
         res.json(geojsonOutput)

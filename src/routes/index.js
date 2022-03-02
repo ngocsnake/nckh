@@ -1,4 +1,3 @@
-
 const HomeRouter = require('./HomeRouter');
 const NewsRouter = require('./NewsRouter');
 const ChartRouter = require('./ChartRouter');
