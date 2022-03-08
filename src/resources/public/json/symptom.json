@@ -1,10 +1,98 @@
 [
     {
-        "id": "1",
-        "title": "Cách phòng ngừa Covid-19 (quy tắc 5K)",
-        "title2": "Bộ Y tế kêu gọi người dân phòng chống dịch Covid-19 với thông điệp 5K:",
-        "body":"Khẩu trang – Khử khuẩn – Khoảng cách – Không tụ tập – Khai báo y tế.\n- Khẩu trang: Đeo khẩu trang vải đúng cách tại nơi công cộng, nơi tập trung đông người; đeo khẩu trang y tế tại các cơ sở y tế, khu cách ly.\n- Khử khuẩn: Rửa tay thường xuyên bằng xà phòng và nước sạch, hoặc dung dịch sát khuẩn tay. Giữ vệ sinh nhà cửa thông thoáng, khử khuẩn các bề mặt như tay nắm cửa, điện thoại, mặt bàn, ghế…\n- Khoảng cách: Giữ khoảng cách tiếp xúc an toàn với người khác.\n- Không tụ tập đông người.\n- Khai báo y tế: thực hiện khai báo y tế: <a href='https://pccovid.gov.vn/' target='_blank''>https://pccovid.gov.vn/</a>",
-        "credit": "vnvc.vn",
-        "open": false
+        "id": 1,
+        "title": "Triệu chứng của COVID-19",
+        "title2": "Theo dõi các triệu chứng",
+        "credit": "vietnamese.cdc.gov",
+        "open": false,
+        "body": "Những người mắc bệnh COVID-19 đã có một loạt các triệu chứng được báo cáo - từ các triệu chứng nhẹ đến bệnh nghiêm trọng. Các triệu chứng có thể xuất hiện 2-14 ngày sau khi phơi nhiễm với vi-rút. Bất cứ ai cũng có thể có các triệu chứng từ nhẹ đến nghiêm trọng. Những người có các triệu chứng này có thể nhiễm COVID-19:\n- Sốt hoặc ớn lạnh\n- Ho\n- Hụt hơi hoặc khó thở\n- Mệt mỏi\n- Đau cơ hoặc đau người\n- Đau đầu\n- Mới mất vị giác hoặc khứu giác\n- Đau họng\n- Ngạt mũi hoặc chảy nước mũi\n- Buồn nôn hoặc nôn mửa\n- Tiêu chảy Khi Nào Thì Cần Cấp Cứu Y Tế:\n- Khó thở\n- Đau hoặc tức ngực thường xuyên\n- Trạng thái lẫn lộn mới\n- Không thể thức dậy hay duy trì sự tỉnh táo\n- Da, móng tay hoặc môi nhợt nhạt, xám hoặc có màu xanh, tùy vào tông da."
+    },
+    {
+        "id": 2,
+        "title": "Phát hiện bệnh nhân Covid-19 trở nặng như thế nào?",
+        "title2": "Đếm mạch: Người lớn mạch 60-90 lần/phút là hoàn toàn bình thường. Trên 100 lần/phút hoặc dưới 50 lần/phút, bạn nên báo y tế.",
+        "credit": "vnexpress.net",
+        "open": false,
+        "body": "Mạch của trẻ mới sinh bình thường 100-160 lần/phút; trẻ 0-5 tháng tuổi là 90-150; trẻ 6-12 tháng là 80-140; trẻ 1-3 tuổi là 80-130; trẻ 3-5 tuổi là 80-120; trẻ 6-10 tuổi là 70-110; trẻ 11-14 tuổi là 60-105; từ 15-20 tuổi là 60-100.Đếm nhịp thở: Bạn nằm thư thái tối thiểu 5-10 phút, sau đó nhờ người khác đếm số lần lồng ngực phồng lên xẹp xuống. Hoặc bạn có thể đặt điện thoại tự quay khung hình từ cằm xuống đến bụng, quay trong 3-5 phút, sau đó tự đếm hoặc gửi cho bác sĩ.Người lớn có nhịp thở bình thường 16-20 lần/phút. Trên 22 hoặc dưới 15 lần/phút, bạn phải báo y tế.Trẻ em có nhịp thở nhanh hơn người lớn. Cụ thể, trẻ mới sinh thở 30-50 lần/phút, 0-5 tháng tuổi là 25-40; trẻ 6 tháng 5 tuổi là 20-30; trẻ 6-10 tuổi là 15-30; trẻ 11-20 tuổi là 12-30.Đo nhiệt độ: Dùng nhiệt kế kẹp nách trong tối thiểu 10 phút. Có thể dùng nhiệt kế bắn tai hoặc trán, đo ở tai là chính xác nhất. Từ 36,3 đến 37,1 độ C là bình thường. Sốt từ 37,5 đến 38,5 độ C, lúc này người bệnh cần được chườm, lau cơ thể bằng khăn ấm.Nếu người bệnh sốt từ 38,5 độ trở lên, uống thuốc hạ sốt Paracetamol liều 10-15 mg/kg cân nặng. Ví dụ người 50 kg, có thể uống một viên đến 1,5 viên 500mg, tùy theo mức độ sốt. Tốt nhất phải hỏi ý kiến bác sĩ trước khi dùng thuốc.Liều thuốc hạ sốt cho trẻ em cũng tính theo cân nặng, nếu trẻ sốt trên 38,5 độ C, cho trẻ uống gói thuốc hạ sốt hoặc đặt viên đặt hậu môn có thành phần Paracetamol, với liều 10-15 mg/kg cân nặng. Ví dụ, trẻ nặng 10kg có thể pha một gói Hapacol 150mg với khoảng 30ml nước ấm cho trẻ uống, hoặc đặt hậu môn một viên Efferalgan 150mg.Lưu ý, chỉ đặt hậu môn khi trẻ không thể uống được, bị nôn trớ... vì đặt hậu môn nhiều có thể gây rối loạn bài tiết phân. Tốt nhất nên hỏi ý kiến bác sĩ trước khi dùng thuốc.Khi sốt, nhịp tim (mạch) sẽ tăng lên, nhịp thở cũng nhanh hơn, bạn muốn đếm mạch và nhịp thở chính xác cần hạ sốt cho bệnh nhân trước."
+    },
+    {
+        "id": 3,
+        "title": "Dấu hiệu trở nặng",
+        "title2": "Quan sát: Nếu sắc mặt, màu môi, đầu các ngón tay hồng hào là bình thường. Còn, thấy mặt tái, vã mồ hôi, môi và đầu ngón tay tím... là dấu hiệu nguy hiểm. Bạn cũng có thể chụp hình 1/2 gương mặt từ mắt xuống cằm, hai mặt của bàn tay, gửi cho bác sĩ xem giúp.",
+        "credit": "vnexpress.net",
+        "open": false,
+        "body": "Trường hợp bệnh nhân Covid-19 đã có kết quả khẳng định, hoặc nghi ngờ dương tính có dấu hiệu mệt nhẹ, ho ít, đau họng, mất khứu giác, sốt dưới 38 độ, mạch 60-100, thở 15-22 lần/phút... là triệu chứng nhẹ. Lúc này bệnh nhân cần ăn uống đủ chất, nhiều rau quả, uống nước cam, sinh tố, vitamin C, vitamin 3B...Khi người bệnh sốt trên 38,5 độ C, cho uống Paracetamol như hướng dẫn ở trên. Nếu người bệnh mệt nhiều hơn, thở 22-25 lần/phút, mạch 100-110 lần/phút, mặt môi tái... là bắt đầu khó thở. Nếu có oxy phải cho thở oxy và báo y tế địa phương, cố gắng đưa bệnh nhân đi bệnh viện càng sớm càng tốt.Trường hợp người bệnh mệt lả, lơ mơ li bì, thở trên 30 lần/phút hoặc dưới 10 lần/phút, mạch trên 120 lần/phút hoặc dưới 50 lần/phút hoặc không sờ thấy mạch là dấu hiệu nguy kịch. Người bệnh lúc này cần được can thiệp y tế khẩn cấp, nếu không sẽ đe dọa tính mạng."
+    },
+    {
+        "id": 4,
+        "title": "Những dấu hiệu cơ bản để nhận biết bạn đang mắc Covid-19",
+        "title2": "Các triệu chứng của bệnh nhân mắc Covid-19 từ nhẹ đến nặng bao gồm: sốt, ho và khó thở. Các triệu chứng này có thể xuất hiện từ 02 đến 14 ngày sau khi tiếp xúc nguồn bệnh. Tới khi khởi phát, Covid-19 gây sốt và có thể tổn thương đường hô hấp. Trường hợp nặng, gây viêm phổi và có thể nhiều cơ quan khác trong cơ thể khiến bệnh nhân tử vong, nhất là các trường hợp có bệnh nền.",
+        "credit": "trungtamytehuyenthoaison.vn",
+        "open": false,
+        "body": " Dấu hiệu 1: Cảm thấy khó thở Nếu cảm thấy bị ngạt mũi và cảm giác nghẹn ở họng và lồng ngực, đây có thể là dấu hiệu cơ thể báo động một người đang bị viêm phổi do virus mới gây ra. Lý do khó thở là do hội chứng suy hô cấp cấp tính hoặc thậm chí suy hô hấp trong một thời gian gắn, cũng là nguyên nhân chính gây ra các trường hợp tử vong do virus Corona chủng mới. Vì thế, đây là triệu chứng rõ nét nhất và cũng nguy hiểm nhất gây ra bởi Covid-19. Dấu hiệu 2: Ho khan, đau họng Ho khan, thậm chí có đờm đặc và bọt, khả năng cao là dấu hiệu của viêm phổi. Ngoài ra, đây cũng chính là một trong những triệu chứng điển hình, nghiêm trọng và phổ biến của Covid-19. Ho do Covid-19 gây ra sẽ không khỏi khi uống thuốc trị ho thông thường. Do đó, nếu cảm thấy ho nhiều, kéo dài, uống thuốc hoặc điều trị tại nhà không đỡ, kết hợp với triệu chứng khó thở, người bệnh cần đi khám sức khỏe ngay tại các cơ sở được Nhà nước, Bộ Y tế công khai chỉ định. Tại đây, bác sĩ sẽ dựa vào khám lâm sàng và xét nghiệm để chuẩn đoán chính xác bệnh. Dấu hiệu 3: Sốt cao Được biết, không phải tất cả những trường hợp nhiễm Covid-19 đều bị sốt. Tuy nhiên, sốt cũng được coi là dấu hiệu, căn cứ để sàng lọc các trường hợp nghi nhiễm. Mức độ sốt ở mỗi trường hợp nhiễm bệnh có thể khác nhau. Có những người thân nhiệt tăng rất cao song cũng có một số người chỉ bị sốt nhẹ."
+    },
+    {
+        "id": 5,
+        "title": "Thông báo cho cơ sở y tế gần nhất nếu bạn có dấu hiệu bị nhiễm Covid-19",
+        "title2": "Bộ Y tế khuyến cáo: Người dân nếu có dấu hiệu sốt, ho, khó thở phải đeo khẩu trang, đến ngay cơ sở y tế gần nhất để được tư vấn, khám, điều trị kịp thời. Gọi điện cho cơ sở y tế trước khi đến để thông tin về các triệu chứng và lịch trình đã di chuyển trong thời gian gần đây để có biện pháp hỗ trợ đúng.",
+        "credit": "trungtamytehuyenthoaison.vn",
+        "open": false,
+        "body": "Ngoài ra, khi nghi ngờ bản thân đang mắc Covid-19, người đó có thể tuân thủ các bước sau để thực hiện tự cách ly tại nhà một cách đúng đắn và tuân thủ tiêu chuẩn an toàn:- Thông báo ngay cho cán bộ y tế xã, phường, thị trấn được phân công phụ trách theo dõi người được cách ly khi có một trong các triệu chứng nghi ngờ mắc bệnh: ho, sốt, khó thở.- Hỗ trợ phương tiện vệ sinh, xà phòng, dung dịch sát khuẩn, khẩu trang cho người được cách ly, nếu có nhu cầu.- Không tổ chức hoạt động đông người tại gia đình, nơi cư trú.- Giúp đỡ, động viên, chia sẻ với người được cách ly trong suốt thời gian cách ly.- Hằng ngày lau nền nhà, bề mặt dụng cụ, tay nắm cửa ở gia đình, nơi cư trú bằng xà phòng hoặc các chất khử trùng hoặc chất tẩy rửa thông thường.- Hàng ngày hạn chế tiếp xúc với người được cách ly, đeo khẩu trang và giữ khoảng cách tối thiểu 2m khi cần tiếp xúc."
+    },
+    {
+        "id": 6,
+        "title": "Phân loại người nhiễm và nghi nhiễm Covid-19",
+        "title2": "- F0: Người được xác định nhiễm Covid-19",
+        "credit": "trungtamytehuyenthoaison.vn",
+        "open": false,
+        "body": "+ Cách ly tại bệnh viện.\n+ Điều trị theo chỉ định của bác sĩ.\n+ Báo cho F1 về tình trạng sức khỏe của mình. - F1: Người tiếp xúc gần với F0 hoặc trường hợp nghi nhiễm\n+ Cách ly tại cơ sở y tế.\n+ Xét nghiệm khẳng định nhiễm Sars-CoV-2.\n+ Theo dõi tình trạng sức khỏe của F0 và báo cho F2 về tình trạng sức khỏe của mình. - F2: Người tiếp xúc với F1\n+ Đeo ngay khẩu trang.\n+ Thông báo cho chính quyền địa phương.\n+ Cách ly tại nhà, nơi lưu trú, cư trú (theo quyết định của cấp có thẩm quyền).\n+ Chuẩn bị cách ly tại cơ sở y tế khi có biểu hiện sốt, hoặc ho, hoặc khó thở.\n+ Theo dõi tình trạng sức khỏe của F1 và báo cho F3 về tình trạng sức khỏe của mình. - F3: Người tiếp xúc với F2\n+ Tự theo dõi sức khỏe.\n+ Tự khai báo khi có biểu hiện sốt.\n+ Theo dõi tình trạng sức khỏe của F2 và báo cho F4 về tình trạng sức khỏe của mình."
+    },
+    {
+        "id": 7,
+        "title": "12 dấu hiệu mắc COVID-19 theo hướng dẫn mới nhất của Bộ Y tế",
+        "title2": "Theo hướng dẫn mới nhất ngày 1-12 của Bộ Y tế, có 12 dấu hiệu, biểu hiện mắc COVID-19 bao gồm: ho; sốt (trên 37,5 độ c); đau đầu; đau họng, rát họng; sổ mũi, chảy mũi, ngạt mũi; khó thở; đau ngực, tức ngực; đau mỏi người, đau cơ; mất vị giác; mất khứu giác; đau bụng, buồn nôn; tiêu chảy.",
+        "credit": "dongnaicdc.vn",
+        "open": false,
+        "body": "Ngày 1/12, Bộ Y tế ban hành Quyết định số 5525/QĐ-BYT kèm hướng dẫn phân loại nguy cơ người nhiễm SARS-CoV-2 và định hướng xử trí, cách ly, điều trị. Quyết định này thay thế cho Quyết định số 3646 ban hành ngày 31/7.Theo đó, việc phân loại theo 4 nhóm nguy cơ ( theo bảng màu đỏ - cam - vàng và xanh) và định hướng xử trí, cách ly, điều trị, cụ thể: Nguy cơ thấp (màu xanh): Tuổi từ 3 tháng trở lên đến dưới 49 tuổi và chưa phát hiện bệnh lý nền, đã tiêm đủ liều vaccine sức khoẻ chưa có dấu hiệu bất thường và SpO2 từ 97% trở lên.Đối với nhóm này được chăm sóc tại nhà riêng (đủ điều kiện theo quy định). Trạm y tế, nhân viên y tế, tình nguyện viên… theo dõi, quản lý người nhiễm, phát hiện sớm dấu hiệu chuyển tầng cao hơn. Cùng với đó, hỗ trợ tâm lý, dinh dưỡng, vận động, theo dõi sức khoẻ liên tục, đánh giá nguy cơ. Đồng thời, cung cấp gói chăm sóc tại nhà (Thuốc kháng vius, vitamin, nhu yếu phẩm…). Nguy cơ trung bình (màu vàng): Từ 50-64 tuổi, chưa phát hiện bệnh lý nền và đã tiêm đủ liều vaccine; tuổi từ 3 tháng đến dưới 49 tuổi và chưa tiêm đủ liều vaccine; có dấu hiệu như: Sốt, ho, đau họng, khó thở nhẹ… và SpO2 từ 97% trở lên.Theo hướng dẫn, với nhóm nguy cơ trung bình cần theo dõi sát sao, phát hiện sớm dấu hiệu thay đổi cần nhập viện ngay hoặc chuyển tầng cao hơn. Việc điều trị bằng thuốc kháng virus; điều trị triệu chứng như: Hạ sốt, giảm đau, giảm ho cùng với nâng cao thể trạng, dinh dưỡng, vật lý trị liệu, hỗ trợ tâm lý… Nguy cơ cao (màu cam): Tuổi từ 65 trở lên và đã tiêm đủ liều vaccine; mắc bệnh lý nền và đã tiêm đủ liều vaccine; từ 50-64 tuổi, chưa phát hiện bệnh lý nền và chưa tiêm đủ liều vaccine; phụ nữ có thai, vừa sinh con dưới 42 ngày; trẻ em từ dưới 3 tháng tuổi; SpO2 từ 94%-96%. Nguy cơ rất cao (màu đỏ): Tuổi từ 65 trở lên và chưa tiêm đủ liều vaccine; mắc bệnh lý nền và chưa tiêm đủ liều vaccine; có tình trạng cấp cứu; SpO2 dưới 94%."
+    },
+    {
+        "id": 8,
+        "title": "20 bệnh nền có nguy cơ cao gồm",
+        "title2": "Đái tháo đường; Bệnh phổi tắc nghẽn mãn tính và các bệnh phổi khác; Ung thư (đặc biệt là các khối u ác tính về huyết học, ung thư phổi và bệnh, ung thư di căn khác); Bệnh thận mạn tính; Ghép tạng hoặc cấy ghép tế bào gốc tạo máu; Béo phì, thừa cân; Bệnh tim mạch (suy tim, bệnh động mạch vành hoặc bệnh cơ tim); Bệnh lý mạch máu não; Hội chứng Down; HIV/AIDS; Bệnh lý thần kinh, bao gồm sa sút trí tuệ; Bệnh hồng cầu hình liềm; Bệnh hen suyễn; Tăng huyết áp; Thiếu hụt miễn dịch; Bệnh gan; Rối loạn sử dụng chất gây nghiện; Sử dụng corticosteroid hoặc các thuốc ức chế miễn dịch khác; Các loại bệnh hệ thống; Các bệnh nền của trẻ em theo hướng dẫn điều trị của Bộ Y tế.",
+        "credit": "dongnaicdc.vn",
+        "open": false,
+        "body": ""
+    },
+    {
+        "id": 9,
+        "title": "Tình trạng cấp cứu bao gồm",
+        "title2": "Rối loạn ý thức; Khó thở, thở nhanh > 25 lần/phút hoặc SpO2 < 94%; Nhịp tim nhanh > 120 nhịp/phút; Huyết áp tụt, huyết áp tối đa < 90 mmHg, huyết áp tối thiểu < 60 mmHg; Bất kỳ dấu hiệu bất thường khác mà nhân viên y tế chỉ định xử trí cấp cứu.",
+        "credit": "dongnaicdc.vn",
+        "open": false,
+        "body": ""
+    },
+    {
+        "id": 10,
+        "title": "Nhận biết triệu chứng nhiễm COVID-19 qua từng ngày",
+        "title2": "Ngày 1 đến ngày 3:",
+        "credit": "huyenuy.namtramy.quangnam.gov.vn",
+        "open": false,
+        "body": " + Triệu chứng giống bệnh cảm.\n+ Viêm họng nhẹ, hơi đau.\n+ Không nóng sốt. Không mệt mỏi, vẫn ăn uống bình thường. Ngày 4 + Cổ họng đau nhẹ, người nôn nao.\n+ Bắt đầu khan tiếng.\n+ Nhiệt độ cơ thể dao động ~ 36.5 (tuỳ người).\n+ Bắt đầu chán ăn.\n+ Đau đầu nhẹ.Tiêu chảy nhẹ. Ngày 5 + Đau họng, khan tiếng hơn.\n+ Cơ thể nóng nhẹ. Nhiệt độ từ 36.5~36.7.\n+ Người mệt mỏi, cảm thấy đau khớp xương.\n** Giai đoạn này khó nhận ra là cảm hay là nhiễm corona. Ngày 6 + Bắt đầu sốt nhẹ.\n+ Ho có đàm hoặc ho khan.\n+ Đau họng khi ăn, nói hay nuốt nước bọt.\n+ Mệt mỏi, buồn nôn.\n+ Thỉnh thoảng khó khăn trong việc hít thở.\n+ Lưng, ngón tay đau lâm râm.\n+ Tiêu chảy, có thể nôn ói. Ngày 7 + Sốt cao hơn từ 37.4~37.8.\n+ Ho nhiều hơn, đàm nhiều hơn.\n+ Toàn thân đau nhức. Đầu nặng như đeo đá.\n+ Tần suất khó thở vẫn như cũ.\n+ Tiêu chảy nhiều hơn.\n+ Nôn ói Ngày 8 + Sốt gần mức 38 hoặc trên 38.\n+ Khó thở hơn, mỗi khi hít thở cảm thấy nặng lồng ngực. Hơi thở khò khè.\n+ Ho liên tục, đàm nhiều, tắt tiếng.\n+ Đầu đau, khớp xương đau, lưng đau... Ngày 9 + Các triệu chứng không thêm mà trở nên nặng hơn.\n+ Sốt tăng giảm lộn xộn.\n+ Ho không bớt mà nặng hơn trước.\n+ Dù cố gắng vẫn cảm thấy khó hít thở.LƯU Ý: Triệu chứng sẽ thay đổi tuỳ theo sức đề kháng của từng người. Ai khoẻ thì cần 10-14 ngày mới phát hiện. Ai không khoẻ thì sẽ mất tới 4-5 ngày. Vậy nên nếu có dấu hiệu đáng nghi thì ngay hãy lập tức liên hệ với bệnh viện gần nhất để được hỗ trợ y tế kịp thời bạn nhé!"
+    },
+    {
+        "id": 11,
+        "title": "Dấu hiệu chuyển nặng ở trẻ em",
+        "title2": "Theo đó, Bộ Y tế đưa ra các dấu hiệu chuyển nặng cần báo cấp cứu 115 hoặc đội phản ứng nhanh tại xã phường để được cấp cứu tại nhà hoặc đưa trẻ đến bệnh viện ngay, gồm:",
+        "credit": "moh.gov.vn",
+        "open": false,
+        "body": "- Thở nhanh;\n- Khó thở, cánh mũi phập phồng;\n- Rút lõm lồng ngực;\n- Li bì, lờ đờ, bỏ bú/ăn uống;\n- Tím tái môi đầu chi;\n- SpO2 < 95%.Ngoài ra, với 8 triệu chứng sau đây của trẻ, gia đình cần báo ngay cho nhân viên y tế:- Sốt > 38 độ C;\n- Đau rát họng, ho;\n- Tiêu chảy;\n- Trẻ mệt, không chịu chơi;\n- Tức ngực;\n- Cảm giác khó thở;\n- SpO2 < 96%;\n- Ăn/bú kém."
+    },
+    {
+        "id": 12,
+        "title": "Triệu chứng thường xuất hiện khi nhiễm biến thể Omicron",
+        "title2": "Ho khan và ngứa họng là những triệu chứng đầu tiên xuất hiện ở 90% những người nhiễm biến thể Omicron của virus SARS-CoV-2. Đây là kết quả báo cáo sơ bộ do Cơ quan kiểm soát và ngăn ngừa dịch bệnh (CDC) của Anh công bố mới đây, trong nỗ lực tìm hiều về biến thể Omicron. Báo cáo cũng nhận định Omicron lây lan nhanh hơn các biến thể trước, nhưng đến nay chưa có nhiều ca nhiễm biến thể này phải nhập viện.",
+        "credit": "ncov.vnanet.vn",
+        "open": false,
+        "body": "Theo báo cáo, ho là triệu chứng chung nhất, xuất hiện ở 89% những ca nhiễm Omicron. Báo cáo cho biết: “Trong số những ca nhiễm đầu tiên, nhiều ca có vẻ nhẹ hơn so với trường hợp nhiễm các biến thể khác, dù rằng từ khi nhiễm đến khi xuất hiện các triệu chứng nghiêm trọng, nếu có, thường phải mất một thời gian… Các triệu chứng ở những người đã tiêm vaccine hoặc đã từng nhiễm COVID-19 được cho là nhẹ hơn so với những người chưa tiêm vaccine”. Báo cáo lưu ý rằng các trường hợp được nghiên cứu chưa thật điển hình, nhưng có vẻ như Omicron gây ra các triệu chứng “yếu hơn” các biến thể khác.Cụ thể, trong số 43 ca nhiễm Omicron được nghiên cứu, có 7% là không triệu chứng hoặc triệu chứng “không rõ”. Có 93% số ca xuất hiện triệu chứng, trong đó các triệu chứng nổi bật nhất là ho (89%), mệt mỏi (65%), nghẹt mũi hoặc chảy nước mũi (59%). Các triệu chứng khác cũng xuất hiện là khó thở (16%), tiêu chảy (11%), mất vị giác hoặc khứu giác (8%).\n\nBáo cáo cảnh báo dù rằng đa số các trường hợp nhiễm biến thể Omicron đều có triệu chứng nhẹ, tuy nhiên việc biến thể có khả năng lây lan nhanh có thể gây quá tải cho hệ thống y tế./."
     }
 ]

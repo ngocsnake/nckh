@@ -1,34 +1,98 @@
 [
     {
-        "id": "1",
-        "title": "Cách phòng ngừa Covid-19 (quy tắc 5K)",
-        "title2": "Bộ Y tế kêu gọi người dân phòng chống dịch Covid-19 với thông điệp 5K:",
-        "body":"Khẩu trang – Khử khuẩn – Khoảng cách – Không tụ tập – Khai báo y tế.\n- Khẩu trang: Đeo khẩu trang vải đúng cách tại nơi công cộng, nơi tập trung đông người; đeo khẩu trang y tế tại các cơ sở y tế, khu cách ly.\n- Khử khuẩn: Rửa tay thường xuyên bằng xà phòng và nước sạch, hoặc dung dịch sát khuẩn tay. Giữ vệ sinh nhà cửa thông thoáng, khử khuẩn các bề mặt như tay nắm cửa, điện thoại, mặt bàn, ghế…\n- Khoảng cách: Giữ khoảng cách tiếp xúc an toàn với người khác.\n- Không tụ tập đông người.\n- Khai báo y tế: thực hiện khai báo y tế: <a href='https://pccovid.gov.vn/' target='_blank''>https://pccovid.gov.vn/</a>",
-        "credit": "vnvc.vn",
-        "open": false
+        "id": 1,
+        "title": "Người già có nên tiêm vaccine không?",
+        "body": "Người trên 65 tuổi cần cân nhắc trước khi tiêm, vì đa số người cao tuổi có bệnh nền, có thể gây phản ứng nặng.",
+        "credit": "vnexpress.net",
+        "open": false,
+        "title2": ""
     },
     {
-        "id": "2",
-        "title": "Cách phòng ngừa Covid-19 (quy tắc 5K)",
-        "title2": "Bộ Y tế kêu gọi người dân phòng chống dịch Covid-19 với thông điệp 5K:",
-        "body":"Khẩu trang – Khử khuẩn – Khoảng cách – Không tụ tập – Khai báo y tế.\n- Khẩu trang: Đeo khẩu trang vải đúng cách tại nơi công cộng, nơi tập trung đông người; đeo khẩu trang y tế tại các cơ sở y tế, khu cách ly.\n- Khử khuẩn: Rửa tay thường xuyên bằng xà phòng và nước sạch, hoặc dung dịch sát khuẩn tay. Giữ vệ sinh nhà cửa thông thoáng, khử khuẩn các bề mặt như tay nắm cửa, điện thoại, mặt bàn, ghế…\n- Khoảng cách: Giữ khoảng cách tiếp xúc an toàn với người khác.\n- Không tụ tập đông người.\n- Khai báo y tế: thực hiện khai báo y tế: <a href='https://pccovid.gov.vn/' target='_blank''>https://pccovid.gov.vn/</a>",
-        "credit": "vnvc.vn",
-        "open": false
+        "id": 2,
+        "title": "Phụ nữ mang thai hoặc cho con bú có thể tiêm vaccine không?",
+        "title2": "Rất ít dữ liệu có sẵn để đánh giá tính an toàn của vaccine trong thai kỳ. Tuy nhiên, những người có nguy cơ cao tiếp xúc với virus (chẳng hạn như nhân viên y tế), hoặc những người có tiền sử bệnh lý tiềm ẩn làm tăng nguy cơ mắc bệnh nặng, có thể được tiêm phòng trong khi mang thai sau khi tham khảo ý kiến của nhà cung cấp dịch vụ chăm sóc sức khỏe của họ. Không có bằng chứng nào cho thấy tiêm phòng có thể gây hại trong thời kỳ mang thai.",
+        "credit": "vnexpress.net",
+        "open": false,
+        "body": "Có thể tiêm vaccine cho những người đang cho con bú nếu họ thuộc nhóm được khuyến nghị tiêm chủng (ví dụ: nhân viên y tế)."
     },
     {
-        "id": "3",
-        "title": "Cách phòng ngừa Covid-19 (quy tắc 5K)",
-        "title2": "Bộ Y tế kêu gọi người dân phòng chống dịch Covid-19 với thông điệp 5K:",
-        "body":"Khẩu trang – Khử khuẩn – Khoảng cách – Không tụ tập – Khai báo y tế.\n- Khẩu trang: Đeo khẩu trang vải đúng cách tại nơi công cộng, nơi tập trung đông người; đeo khẩu trang y tế tại các cơ sở y tế, khu cách ly.\n- Khử khuẩn: Rửa tay thường xuyên bằng xà phòng và nước sạch, hoặc dung dịch sát khuẩn tay. Giữ vệ sinh nhà cửa thông thoáng, khử khuẩn các bề mặt như tay nắm cửa, điện thoại, mặt bàn, ghế…\n- Khoảng cách: Giữ khoảng cách tiếp xúc an toàn với người khác.\n- Không tụ tập đông người.\n- Khai báo y tế: thực hiện khai báo y tế: <a href='https://pccovid.gov.vn/' target='_blank''>https://pccovid.gov.vn/</a>",
-        "credit": "vnvc.vn",
-        "open": false
+        "id": 3,
+        "title": "Những người có bệnh nền nào không nên tiêm?",
+        "body": "Người bị bệnh nền vẫn có thể được tiêm vaccine dưới sự hướng dẫn của nhân viên y tế, trừ những người mắc bệnh nền nhưng có dị ứng với thành phần của các loại vaccine. Người có bệnh nền mạn tính có nguy cơ cao mắc Covid nên cần thiết tiêm vaccine, tuy nhiên cần tư vấn, sàng lọc kỹ để loại trừ các bệnh lý có chống chỉ định tiêm vaccine.",
+        "credit": "vnexpress.net",
+        "open": false,
+        "title2": ""
     },
     {
-        "id": "4",
-        "title": "Cách phòng ngừa Covid-19 (quy tắc 5K)",
-        "title2": "Bộ Y tế kêu gọi người dân phòng chống dịch Covid-19 với thông điệp 5K:",
-        "body":"Khẩu trang – Khử khuẩn – Khoảng cách – Không tụ tập – Khai báo y tế.\n- Khẩu trang: Đeo khẩu trang vải đúng cách tại nơi công cộng, nơi tập trung đông người; đeo khẩu trang y tế tại các cơ sở y tế, khu cách ly.\n- Khử khuẩn: Rửa tay thường xuyên bằng xà phòng và nước sạch, hoặc dung dịch sát khuẩn tay. Giữ vệ sinh nhà cửa thông thoáng, khử khuẩn các bề mặt như tay nắm cửa, điện thoại, mặt bàn, ghế…\n- Khoảng cách: Giữ khoảng cách tiếp xúc an toàn với người khác.\n- Không tụ tập đông người.\n- Khai báo y tế: thực hiện khai báo y tế: <a href='https://pccovid.gov.vn/' target='_blank''>https://pccovid.gov.vn/</a>",
-        "credit": "vnvc.vn",
-        "open": false
+        "id": 4,
+        "title": "Những nhóm nào cần trì hoãn tiêm vaccine?",
+        "title2": "Trước đây, có 5 phân nhóm người phải trì hoãn tiêm chủng, tuy nhiên, theo hướng dẫn mới, chỉ còn ba phân nhóm, gồm: Người có tiền sử rõ ràng đã mắc Covid-19 trong vòng 6 tháng; Người đang mắc bệnh cấp tính; Phụ nữ mang thai dưới 13 tuần.",
+        "credit": "vnexpress.net",
+        "open": false,
+        "body": "Khi nào không nên tiêm vaccine? Người có tiền sử dị ứng nặng (phản vệ), mắc các bệnh cấp tính, điều trị các thuốc ức chế miễn dịch liều cao trong vòng 7 ngày trở lại, sử dụng các thuốc chống đông máu... không nên tiêm vaccine."
+    },
+    {
+        "id": 5,
+        "title": "Bị dị ứng với thuốc kháng sinh (peniciline, steptomicine) và dị ứng với cả thức ăn (cua, tép nhỏ), có tiêm vaccine được không?",
+        "body": "Bác sĩ Vũ Minh Điền, Bệnh viện Bệnh nhiệt đới Trung ương cho biết, theo hướng dẫn khám sàng lọc trước tiêm chủng mới nhất được Bộ Y tế ban hành ngày 10/8, người bị dị ứng với các thuốc kháng sinh thì vẫn có thể tiêm chủng vaccine phòng Covid-19. Tuy nhiên, những trường hợp dị ứng này thuộc đối tượng cần thận trọng khi tiêm và tốt nhất là đến tiêm chủng tại cơ sở y tế có khả năng hồi sức cấp cứu.\nVề trường hợp dị ứng tôm cua cá, bác sĩ Phạm Quang Thái, Trưởng văn phòng tiêm chủng miền Bắc cho biết, trong tôm, cua, cá không có trong chất thuộc về vaccine nên không cần quá lo lắng, vẫn có thể tiêm vaccine Covid-19. Có nhiều người dị ứng thời tiết, tôm cua cá hay một số loại khác đã được khuyên tiêm sớm và hầu hết không có trường hợp nào bất thường.",
+        "credit": "vnexpress.net",
+        "open": false,
+        "title2": ""
+    },
+    {
+        "id": 6,
+        "title": "Các phản ứng đáng lưu ý với mỗi loại vaccine là gì? Chúng có biểu hiện như thế nào?",
+        "body": "1. Pfizer biontech\nRất thường gặp:\n- Đau đầu\n- Đau khớp\n- Đau cơ\n- Đau ở vị trí tiêm\n- Mệt mỏi\n- Ớn lạnh\n- Sốt\n- Sưng ở vị trí tiêm\nCũng có thể có những tác dụng phụ khác ít gặp hơn.\nCác tác dụng phụ có thể thường gặp nhiều hơn sau liều thứ hai.\n\n2. AstraZeneca\nHơn 1/10 người có thể gặp phải:\n- Mệt\n- Đau, bầm tím, đau hoặc ngứa ở cánh tay nơi đã tiêm vaccine\n- Đau đầu\n- Đau cơ\n- Đau khớp\n- Buồn nôn\n- Sốt (nhiệt độ từ 38 độ C trở lên)\n\nHơn 1 trong 100 người có thể có:\n- Đỏ hoặc sưng ở nơi bạn đã tiêm\n- Bị tiêu chảy\n- Nôn mửa\n- Số lượng tiểu cầu thấp (không gây ra bất kỳ triệu chứng nào)\n\nTác dụng phụ hiếm gặp\nHơn 1 trong 1.000 người có thể gặp phải:\n- Giảm cảm giác thèm ăn\n- Chóng mặt\n- Buồn ngủ\n- Đổ mồ hôi\n- Sưng hạch bạch huyết\n- Phát ban\n\nTác dụng phụ rất hiếm\nCác tác dụng phụ rất hiếm của vaccine AstraZeneca bao gồm:\n- Cục máu đông rất bất thường. Tuy nhiên rất hiếm người có thể phát triển các cục máu đông rất bất thường với tiểu cầu thấp sau khi tiêm vaccine này. Nguy cơ mắc tình trạng rất hiếm gặp này cao hơn ở những người trẻ tuổi.\nHiện tượng máu đông bất thường xảy ra ở:\n+ 1 trong 100.000 người từ 50 tuổi trở lên\n+ 1 trong 50.000 người từ 18 đến 49 tuổi\n+ 1/5 số người phát triển tình trạng này có thể tử vong.\n- Hội chứng rò rỉ mao mạch\n(Nguồn: HSE)\n\n3. Moderna\nTrong cánh tay được tiêm:\n- Đau\n- Đỏ\n- Sưng tấy\n\nCơ thể:\n- Mệt mỏi\n- Đau đầu\n- Đau cơ\n- Ớn lạnh\n- Sốt\n- Buồn nôn\n\nNhững tác dụng phụ này xảy ra trong vòng một hoặc hai ngày sau khi tiêm. Chúng là những dấu hiệu bình thường cho thấy cơ thể bạn đang được bảo vệ và sẽ biến mất trong vòng vài ngày. (Nguồn: CDC)\n\n4. Sinopharm\nTheo Thời báo Hoàn Cầu, tỷ lệ tác dụng phụcủa Sinopharm là 1,06%, dựa trên dữ liệu của 500.000 người được tiêm\nNguồn Thời báo Hoàn Cầu\nTheo báo Newyork Times, tác dụng phụ của Sinopharm không đáng kể\n(Nguồn: NYTimes )\n\nTuy nhiên, Bộ Y tế một số nước, cho biết những tác dụng phụ của Sinopharm gồm: Đau, đỏ, cứng và ngứa tại khu vực tiêm chủng.\n- Tăng nhiệt độ cơ thể, nhức đầu.\n- Mệt mỏi, buồn nôn và nôn.\n- Tiêu chảy, ho và dị ứng.\n- Đau cơ.\n- Đau khớp và hôn mê.\n- Chuột rút cơ bắp\n(Nguồn: Egyptindependent )\n\n5. SputnikV\nViện Gamaleya của Nga nói rằng họ đã phát triển loại vaccine không có tác dụng phụ. Hiện khoảng 70 quốc gia đã sử dụng vaccine này.\n\nTuy nhiên, quá trình tiêm chủng ở các nước, một số người có các triệu chứng như đau, ấm, ngứa, bầm tím, mệt mỏi, ớn lạnh, sốt, buồn nôn, đau cơ, nổi cục, khó chịu...\n(Nguồn: IndiaTimes )",
+        "credit": "vnexpress.net",
+        "open": false,
+        "title2": ""
+    },
+    {
+        "id": 7,
+        "title": "Có thể tiêm vaccine khi đang mắc Covid-19 không?",
+        "body": "Khi mắc Covid-19, cơ thể tự sinh kháng thể nên không cần tiêm vaccine.",
+        "credit": "vnexpress.net",
+        "open": false,
+        "title2": ""
+    },
+    {
+        "id": 8,
+        "title": "Tiêm vaccine Covid-19 có làm bị nhiễm Covid-19 không?",
+        "body": "Vaccine không làm người được tiêm nhiễm bệnh, nhưng người tiêm có thể bị nhiễm bệnh khi cơ thể chưa hình thành đủ miễn dịch.",
+        "credit": "vnexpress.net",
+        "open": false,
+        "title2": ""
+    },
+    {
+        "id": 9,
+        "title": "Trẻ em có nằm trong nhóm đối tượng nguy cơ cao không?",
+        "title2": "Nhìn lại quá khứ, đại dịch Covid-19 có nhiều điểm tương đồng với dịch SARS, MERS-CoV. Theo kết quả nghiên cứu, dịch MERS tại Saudi Arabia năm 2012 và Hàn Quốc năm 2015 khiến hơn 800 người thiệt mạng. Tuy nhiên, hầu hết trẻ em nhiễm bệnh đều không có những triệu chứng nghiêm trọng.",
+        "credit": "vnexpress.net",
+        "open": false,
+        "body": "Tương tự, dịch SARS bùng phát năm 2003 với hơn 800 người chết, tuy nhiên không có trẻ em nào được ghi nhận tử vong, phần lớn người chết vì dịch có độ tuổi trung bình trên 45 và đa số là nam giới. Theo các thống kê của Trung tâm kiểm soát và ngăn ngừa dịch bệnh, trong hơn 8.000 ca nhiễm SARS chỉ có 135 ca nhiễm ở trẻ em chiếm tỷ lệ 1,6%.Bệnh “viêm phổi lạ” do coronavirus chủng mới gây ra đã phác họa nên một bức tranh hoàn toàn mới về nền dịch tễ thế giới, vì thế chưa có một nghiên cứu toàn diện về sự tác động của “đại dịch” đối với trẻ em. Mặt khác, các nhà khoa học đã đưa ra một số nhận định ban đầu, tỷ lệ nam giới mắc bệnh cao hơn nữ giới, trẻ nhỏ ít bị hơn người lớn. Bởi trẻ em ít có khả năng bị phơi nhiễm ngay từ đầu hoặc do đã có hệ thống miễn dịch bẩm sinh, nên trẻ có thể phản ứng chống trả virus dễ dàng hơn và gặp những triệu chứng nhẹ hơn người lớn tuổi.Tuy nhiên, dù tỷ lệ nhiễm bệnh ở trẻ được ghi nhận ở mức thấp nhưng không vì thế mà chúng ta chủ quan, thoải mái để trẻ ra ngoài mà không có biện pháp phòng ngừa. Cần phải dự phòng, tất cả mọi người đều phải được phòng ngừa và thực hiện biện pháp phòng ngừa như nhau."
+    },
+    {
+        "id": 10,
+        "title": "Nếu có tiếp xúc gần nhưng xét nghiệm âm tính thì có phải cách ly 14 ngày không?",
+        "body": "Những người tiếp xúc gần nhưng có kết quả xét nghiệm âm tính không có nghĩa là người đó không bị nhiễm và không lây cho người khác, bởi vì người bị nhiễm virus ở giai đoạn đầu có thể cho kết quả âm tính, nên vẫn có thể lây cho cộng đồng. Do đó, những người tiếp xúc hay từ vùng dịch trở về dù đã xét nghiệm âm tính tuyệt đối không được chủ quan, mà vẫn phải tuân thủ nghiêm túc việc cách ly tại nhà, nơi cư trú đủ 14 ngày và phải giám sát chặt chẽ tình trạng sức khỏe hàng ngày. Cần lưu ý, việc tự cách ly và theo dõi trong 14 ngày rất quan trọng nhất là khi có khuyến cáo của Bộ Y tế.",
+        "credit": "vnexpress.net",
+        "open": false,
+        "title2": ""
+    },
+    {
+        "id": 11,
+        "title": "Người bị nhiễm Covid-19 đã khỏi có nguy cơ mắc bệnh lại nữa không?",
+        "body": "Có thể có hoặc không, tùy theo từng điều kiện nhất định. Nếu Covid-19 tạo được miễn dịch bền vững như virus sởi hoặc quai bị thì không bị lại; tuy nhiên điều này chưa thể khẳng định được đối với virus SARS-CoV-2 vì còn quá sớm. Nếu miễn dịch không bền vững, trong giai đoạn đầu mới khỏi bệnh lượng kháng thể đủ mạnh thì không thể bị lại, nhưng đến giai đoạn sau lượng kháng thể đặc hiệu mất dần đi thì vẫn có thể bị lại. Trong trường hợp này thì cần sử dụng vắc xin để khôi phục lại khả năng đề kháng chống virus.",
+        "credit": "vnexpress.net",
+        "open": false,
+        "title2": ""
+    },
+    {
+        "id": 12,
+        "title": "Tiêm vaccine virus Corona có gây vô sinh không?",
+        "body": "KHÔNG. Hiện không có bằng chứng hay dữ liệu nào chứng minh tiêm vaccine virus Corona có thể gây vô sinh. Các nhà nghiên cứu cho biết, không có loại vắc xin COVID-19 nào được cấp phép sử dụng có bất kỳ tác động đến khả năng sinh sản của cả nam và nữ. Các thử nghiệm lâm sàng tiếp theo đã được lên kế hoạch và thông tin liên quan sẽ được cung cấp cho các bác sĩ hoặc chuyên gia chăm sóc y tế.",
+        "credit": "vnexpress.net",
+        "open": false,
+        "title2": ""
     }
 ]
