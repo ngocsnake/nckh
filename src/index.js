@@ -28,6 +28,11 @@ app.use(express.urlencoded({
 app.use(express.json());
 
 
+setInterval(() => {
+    console.log('keep server active')
+}, 600000);
+
+
 //Route init
 route(app);
 
