@@ -61,6 +61,7 @@ googleStreets.addTo(map);
 ================================================*/
 async function loadMap() {
     const response = await fetch('/api/datacovid').then(response => response.json());
+    console.log(response);
     const datacovid = response.locations;
 
 
@@ -88,7 +89,7 @@ async function loadMap() {
                   <g id="UrTavla">
                     <circle style="fill:#90BDCA;stroke:#fff;stroke-width:1.6871;stroke-miterlimit:10;" cx="100" cy="100" r="25">
                     </circle>
-                    <text x="50%" y="50%" text-anchor="middle" fill="black" font-size="14" dy=".3em">${new Intl.NumberFormat().format(cases)}</text>
+                    <text x="50%" y="50%" text-anchor="middle" fill="black" font-size="12" dy=".3em">${khuvuc.name}</text>
                   </g>
                 </svg>`;
         L.svgOverlay(svgElement, [
