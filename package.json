@@ -23,6 +23,7 @@
     },
     "homepage": "https://github.com/ngocsnake/NCKH_CovidVN#readme",
     "dependencies": {
+        "axios": "^0.27.2",
         "chart.js": "^3.7.1",
         "express": "^4.17.1",
         "express-handlebars": "^5.3.3",
