@@ -27,6 +27,7 @@
         "express": "^4.17.1",
         "express-handlebars": "^5.3.3",
         "fs": "0.0.1-security",
+        "jsdom": "^19.0.0",
         "node-fetch": "^2.6.1",
         "npm-git-install": "^0.3.0",
         "react-chartjs-2": "^4.0.1",

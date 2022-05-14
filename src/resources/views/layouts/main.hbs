@@ -16,8 +16,8 @@
     {{!-- FONT AWESOME --}}
     <link rel="stylesheet" href="https://kit-pro.fontawesome.com/releases/v5.15.4/css/pro.min.css">
 
-    <link rel="icon" href="img/logo.png">
-    <link rel="stylesheet" href="css/app.css">
+    <link rel="icon" href="/img/logo.png">
+    <link rel="stylesheet" href="/css/app.css">
 
 </head>
 
@@ -25,7 +25,7 @@
     <div id="app">
         <div id="header">
             <div class="left">
-                <img class="logo" src="img/logo.png" width="60">
+                <a href="/"><img class="logo" src="/img/logo.png" width="60"></a>
                 <div class="title">
                     <h2 class="title">
                         BẢN ĐỒ THÔNG TIN DỊCH TỄ COVID 19 - VIỆT NAM
@@ -63,7 +63,6 @@
         const nuts = document.querySelectorAll('.nut');
         let site = window.location.href.replace(baseURL, '') || 'homepage';
         if (site) {
-            console.log("site", site);
             nuts.forEach(e => {
                 e.classList.remove('active-navbar')
             })

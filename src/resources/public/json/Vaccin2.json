@@ -1,0 +1,1833 @@
+{
+  "List": {
+    "item": [
+      {
+        "totalVaccinationLocation": 591,
+        "totalInjected": 16899480,
+        "population": 8053664,
+        "totalOnceInjected": 6267218,
+        "totalTwiceInjected": 6265924,
+        "totalThriceInjected": 4212161,
+        "totalFourTimesInjected": 0,
+        "totalFiveTimesInjected": 0,
+        "totalSixTimesInjected": 0,
+        "totalSevenTimesInjected": 0,
+        "totalEightTimesInjected": 0,
+        "totalNineTimesInjected": 0,
+        "totalTenTimesInjected": 154177,
+        "lastOnceInjected": 0,
+        "lastTwiceInjected": 0,
+        "currentTeamInjectInPractice": 0,
+        "totalVaccineAllocated": 11376541,
+        "popOverEighteen": 6200000,
+        "totalVaccineAllocatedReality": 12294742,
+        "provinceCode": 1,
+        "provinceName": "Hà Nội",
+        "vaccineInjectionDailies": {
+          "vaccineInjectionDailies": {
+            "reportedDate": "2022-04-30T17:00:00Z",
+            "totalInjected": 180
+          }
+        }
+      },
+      {
+        "totalVaccinationLocation": 0,
+        "totalInjected": 20699093,
+        "population": 8993082,
+        "totalOnceInjected": 8091521,
+        "totalTwiceInjected": 7611552,
+        "totalThriceInjected": 4853017,
+        "totalFourTimesInjected": 0,
+        "totalFiveTimesInjected": 0,
+        "totalSixTimesInjected": 0,
+        "totalSevenTimesInjected": 0,
+        "totalEightTimesInjected": 0,
+        "totalNineTimesInjected": 0,
+        "totalTenTimesInjected": 143003,
+        "lastOnceInjected": 0,
+        "lastTwiceInjected": 0,
+        "currentTeamInjectInPractice": 0,
+        "totalVaccineAllocated": 13794299,
+        "popOverEighteen": 7208800,
+        "totalVaccineAllocatedReality": 14637020,
+        "provinceCode": 79,
+        "provinceName": "Hồ Chí Minh",
+        "vaccineInjectionDailies": {
+          "vaccineInjectionDailies": {
+            "reportedDate": "2022-04-30T17:00:00Z",
+            "totalInjected": 0
+          }
+        }
+      },
+      {
+        "totalVaccinationLocation": 760,
+        "totalInjected": 7631457,
+        "population": 3640128,
+        "totalOnceInjected": 2830881,
+        "totalTwiceInjected": 2141550,
+        "totalThriceInjected": 2659026,
+        "totalFourTimesInjected": 0,
+        "totalFiveTimesInjected": 0,
+        "totalSixTimesInjected": 0,
+        "totalSevenTimesInjected": 0,
+        "totalEightTimesInjected": 0,
+        "totalNineTimesInjected": 0,
+        "totalTenTimesInjected": 0,
+        "lastOnceInjected": 0,
+        "lastTwiceInjected": 0,
+        "currentTeamInjectInPractice": 0,
+        "totalVaccineAllocated": 4794541,
+        "popOverEighteen": 2393453,
+        "totalVaccineAllocatedReality": 3877590,
+        "provinceCode": 38,
+        "provinceName": "Thanh Hóa",
+        "vaccineInjectionDailies": {
+          "vaccineInjectionDailies": {
+            "reportedDate": "2022-04-30T17:00:00Z",
+            "totalInjected": 0
+          }
+        }
+      },
+      {
+        "totalVaccinationLocation": 516,
+        "totalInjected": 6829603,
+        "population": 3327791,
+        "totalOnceInjected": 2303513,
+        "totalTwiceInjected": 2241417,
+        "totalThriceInjected": 1863270,
+        "totalFourTimesInjected": 0,
+        "totalFiveTimesInjected": 0,
+        "totalSixTimesInjected": 0,
+        "totalSevenTimesInjected": 0,
+        "totalEightTimesInjected": 0,
+        "totalNineTimesInjected": 0,
+        "totalTenTimesInjected": 421403,
+        "lastOnceInjected": 0,
+        "lastTwiceInjected": 0,
+        "currentTeamInjectInPractice": 0,
+        "totalVaccineAllocated": 4267816,
+        "popOverEighteen": 1960668,
+        "totalVaccineAllocatedReality": 3900900,
+        "provinceCode": 40,
+        "provinceName": "Nghệ An",
+        "vaccineInjectionDailies": {
+          "vaccineInjectionDailies": {
+            "reportedDate": "2022-04-30T17:00:00Z",
+            "totalInjected": 0
+          }
+        }
+      },
+      {
+        "totalVaccinationLocation": 219,
+        "totalInjected": 7186667,
+        "population": 3097107,
+        "totalOnceInjected": 3213204,
+        "totalTwiceInjected": 2989058,
+        "totalThriceInjected": 924345,
+        "totalFourTimesInjected": 0,
+        "totalFiveTimesInjected": 0,
+        "totalSixTimesInjected": 0,
+        "totalSevenTimesInjected": 0,
+        "totalEightTimesInjected": 0,
+        "totalNineTimesInjected": 0,
+        "totalTenTimesInjected": 60060,
+        "lastOnceInjected": 0,
+        "lastTwiceInjected": 0,
+        "currentTeamInjectInPractice": 0,
+        "totalVaccineAllocated": 4256053,
+        "popOverEighteen": 2384309,
+        "totalVaccineAllocatedReality": 5025430,
+        "provinceCode": 75,
+        "provinceName": "Đồng Nai",
+        "vaccineInjectionDailies": {
+          "vaccineInjectionDailies": {
+            "reportedDate": "2022-04-30T17:00:00Z",
+            "totalInjected": 355
+          }
+        }
+      },
+      {
+        "totalVaccinationLocation": 0,
+        "totalInjected": 6837114,
+        "population": 2426561,
+        "totalOnceInjected": 2868515,
+        "totalTwiceInjected": 2364386,
+        "totalThriceInjected": 1604213,
+        "totalFourTimesInjected": 0,
+        "totalFiveTimesInjected": 0,
+        "totalSixTimesInjected": 0,
+        "totalSevenTimesInjected": 0,
+        "totalEightTimesInjected": 0,
+        "totalNineTimesInjected": 0,
+        "totalTenTimesInjected": 0,
+        "lastOnceInjected": 0,
+        "lastTwiceInjected": 0,
+        "currentTeamInjectInPractice": 0,
+        "totalVaccineAllocated": 3550283,
+        "popOverEighteen": 2066553,
+        "totalVaccineAllocatedReality": 4772470,
+        "provinceCode": 74,
+        "provinceName": "Bình Dương",
+        "vaccineInjectionDailies": {
+          "vaccineInjectionDailies": {
+            "reportedDate": "2022-04-30T17:00:00Z",
+            "totalInjected": 0
+          }
+        }
+      },
+      {
+        "totalVaccinationLocation": 164,
+        "totalInjected": 4266246,
+        "population": 1908352,
+        "totalOnceInjected": 1595588,
+        "totalTwiceInjected": 1533392,
+        "totalThriceInjected": 1134350,
+        "totalFourTimesInjected": 0,
+        "totalFiveTimesInjected": 0,
+        "totalSixTimesInjected": 0,
+        "totalSevenTimesInjected": 0,
+        "totalEightTimesInjected": 0,
+        "totalNineTimesInjected": 0,
+        "totalTenTimesInjected": 2916,
+        "lastOnceInjected": 0,
+        "lastTwiceInjected": 0,
+        "currentTeamInjectInPractice": 0,
+        "totalVaccineAllocated": 2606158,
+        "popOverEighteen": 1457127,
+        "totalVaccineAllocatedReality": 3112132,
+        "provinceCode": 89,
+        "provinceName": "An Giang",
+        "vaccineInjectionDailies": {
+          "vaccineInjectionDailies": {
+            "reportedDate": "2022-04-30T17:00:00Z",
+            "totalInjected": 4535
+          }
+        }
+      },
+      {
+        "totalVaccinationLocation": 272,
+        "totalInjected": 3870015,
+        "population": 1892254,
+        "totalOnceInjected": 1514909,
+        "totalTwiceInjected": 1448400,
+        "totalThriceInjected": 906706,
+        "totalFourTimesInjected": 0,
+        "totalFiveTimesInjected": 0,
+        "totalSixTimesInjected": 0,
+        "totalSevenTimesInjected": 0,
+        "totalEightTimesInjected": 0,
+        "totalNineTimesInjected": 0,
+        "totalTenTimesInjected": 0,
+        "lastOnceInjected": 0,
+        "lastTwiceInjected": 0,
+        "currentTeamInjectInPractice": 0,
+        "totalVaccineAllocated": 2598385,
+        "popOverEighteen": 1344063,
+        "totalVaccineAllocatedReality": 2025640,
+        "provinceCode": 30,
+        "provinceName": "Hải Dương",
+        "vaccineInjectionDailies": {
+          "vaccineInjectionDailies": {
+            "reportedDate": "2022-04-30T17:00:00Z",
+            "totalInjected": 0
+          }
+        }
+      },
+      {
+        "totalVaccinationLocation": 170,
+        "totalInjected": 3715051,
+        "population": 1869322,
+        "totalOnceInjected": 1497308,
+        "totalTwiceInjected": 1374528,
+        "totalThriceInjected": 826830,
+        "totalFourTimesInjected": 0,
+        "totalFiveTimesInjected": 0,
+        "totalSixTimesInjected": 0,
+        "totalSevenTimesInjected": 0,
+        "totalEightTimesInjected": 0,
+        "totalNineTimesInjected": 0,
+        "totalTenTimesInjected": 16385,
+        "lastOnceInjected": 0,
+        "lastTwiceInjected": 0,
+        "currentTeamInjectInPractice": 0,
+        "totalVaccineAllocated": 2317760,
+        "popOverEighteen": 1266098,
+        "totalVaccineAllocatedReality": 2100110,
+        "provinceCode": 66,
+        "provinceName": "Đắk Lắk",
+        "vaccineInjectionDailies": {
+          "vaccineInjectionDailies": {
+            "reportedDate": "2022-04-30T17:00:00Z",
+            "totalInjected": 0
+          }
+        }
+      },
+      {
+        "totalVaccinationLocation": 269,
+        "totalInjected": 3765859,
+        "population": 1860447,
+        "totalOnceInjected": 1348190,
+        "totalTwiceInjected": 1346322,
+        "totalThriceInjected": 1033431,
+        "totalFourTimesInjected": 0,
+        "totalFiveTimesInjected": 0,
+        "totalSixTimesInjected": 0,
+        "totalSevenTimesInjected": 0,
+        "totalEightTimesInjected": 0,
+        "totalNineTimesInjected": 0,
+        "totalTenTimesInjected": 37916,
+        "lastOnceInjected": 0,
+        "lastTwiceInjected": 0,
+        "currentTeamInjectInPractice": 0,
+        "totalVaccineAllocated": 2526449,
+        "popOverEighteen": 1373070,
+        "totalVaccineAllocatedReality": 1893980,
+        "provinceCode": 34,
+        "provinceName": "Thái Bình",
+        "vaccineInjectionDailies": {
+          "vaccineInjectionDailies": {
+            "reportedDate": "2022-04-30T17:00:00Z",
+            "totalInjected": 0
+          }
+        }
+      },
+      {
+        "totalVaccinationLocation": 44,
+        "totalInjected": 4711818,
+        "population": 1837173,
+        "totalOnceInjected": 1851162,
+        "totalTwiceInjected": 1568562,
+        "totalThriceInjected": 946452,
+        "totalFourTimesInjected": 0,
+        "totalFiveTimesInjected": 0,
+        "totalSixTimesInjected": 0,
+        "totalSevenTimesInjected": 0,
+        "totalEightTimesInjected": 0,
+        "totalNineTimesInjected": 0,
+        "totalTenTimesInjected": 345642,
+        "lastOnceInjected": 0,
+        "lastTwiceInjected": 0,
+        "currentTeamInjectInPractice": 0,
+        "totalVaccineAllocated": 2857279,
+        "popOverEighteen": 1580000,
+        "totalVaccineAllocatedReality": 2767400,
+        "provinceCode": 31,
+        "provinceName": "Hải Phòng",
+        "vaccineInjectionDailies": {
+          "vaccineInjectionDailies": {
+            "reportedDate": "2022-04-30T17:00:00Z",
+            "totalInjected": 0
+          }
+        }
+      },
+      {
+        "totalVaccinationLocation": 251,
+        "totalInjected": 4181205,
+        "population": 1803950,
+        "totalOnceInjected": 1448503,
+        "totalTwiceInjected": 1379019,
+        "totalThriceInjected": 1026235,
+        "totalFourTimesInjected": 0,
+        "totalFiveTimesInjected": 0,
+        "totalSixTimesInjected": 0,
+        "totalSevenTimesInjected": 0,
+        "totalEightTimesInjected": 0,
+        "totalNineTimesInjected": 0,
+        "totalTenTimesInjected": 327448,
+        "lastOnceInjected": 0,
+        "lastTwiceInjected": 0,
+        "currentTeamInjectInPractice": 0,
+        "totalVaccineAllocated": 2408322,
+        "popOverEighteen": 1280197,
+        "totalVaccineAllocatedReality": 2203610,
+        "provinceCode": 24,
+        "provinceName": "Bắc Giang",
+        "vaccineInjectionDailies": {
+          "vaccineInjectionDailies": {
+            "reportedDate": "2022-04-30T17:00:00Z",
+            "totalInjected": 0
+          }
+        }
+      },
+      {
+        "totalVaccinationLocation": 248,
+        "totalInjected": 3618555,
+        "population": 1780393,
+        "totalOnceInjected": 1343804,
+        "totalTwiceInjected": 1244772,
+        "totalThriceInjected": 943132,
+        "totalFourTimesInjected": 0,
+        "totalFiveTimesInjected": 0,
+        "totalSixTimesInjected": 0,
+        "totalSevenTimesInjected": 0,
+        "totalEightTimesInjected": 0,
+        "totalNineTimesInjected": 0,
+        "totalTenTimesInjected": 86847,
+        "lastOnceInjected": 0,
+        "lastTwiceInjected": 0,
+        "currentTeamInjectInPractice": 0,
+        "totalVaccineAllocated": 2341610,
+        "popOverEighteen": 1159000,
+        "totalVaccineAllocatedReality": 1772560,
+        "provinceCode": 36,
+        "provinceName": "Nam Định",
+        "vaccineInjectionDailies": {
+          "vaccineInjectionDailies": {
+            "reportedDate": "2022-04-30T17:00:00Z",
+            "totalInjected": 0
+          }
+        }
+      },
+      {
+        "totalVaccinationLocation": 152,
+        "totalInjected": 4057691,
+        "population": 1764185,
+        "totalOnceInjected": 1498912,
+        "totalTwiceInjected": 1436558,
+        "totalThriceInjected": 1111098,
+        "totalFourTimesInjected": 0,
+        "totalFiveTimesInjected": 0,
+        "totalSixTimesInjected": 0,
+        "totalSevenTimesInjected": 0,
+        "totalEightTimesInjected": 0,
+        "totalNineTimesInjected": 0,
+        "totalTenTimesInjected": 11123,
+        "lastOnceInjected": 0,
+        "lastTwiceInjected": 0,
+        "currentTeamInjectInPractice": 0,
+        "totalVaccineAllocated": 2512418,
+        "popOverEighteen": 1488385,
+        "totalVaccineAllocatedReality": 2974320,
+        "provinceCode": 82,
+        "provinceName": "Tiền Giang",
+        "vaccineInjectionDailies": {
+          "vaccineInjectionDailies": {
+            "reportedDate": "2022-04-30T17:00:00Z",
+            "totalInjected": 0
+          }
+        }
+      },
+      {
+        "totalVaccinationLocation": 171,
+        "totalInjected": 3549700,
+        "population": 1723067,
+        "totalOnceInjected": 1415546,
+        "totalTwiceInjected": 1337482,
+        "totalThriceInjected": 796672,
+        "totalFourTimesInjected": 0,
+        "totalFiveTimesInjected": 0,
+        "totalSixTimesInjected": 0,
+        "totalSevenTimesInjected": 0,
+        "totalEightTimesInjected": 0,
+        "totalNineTimesInjected": 0,
+        "totalTenTimesInjected": 0,
+        "lastOnceInjected": 0,
+        "lastTwiceInjected": 0,
+        "currentTeamInjectInPractice": 0,
+        "totalVaccineAllocated": 2371842,
+        "popOverEighteen": 1248338,
+        "totalVaccineAllocatedReality": 3001880,
+        "provinceCode": 91,
+        "provinceName": "Kiên Giang",
+        "vaccineInjectionDailies": {
+          "vaccineInjectionDailies": {
+            "reportedDate": "2022-04-30T17:00:00Z",
+            "totalInjected": 0
+          }
+        }
+      },
+      {
+        "totalVaccinationLocation": 217,
+        "totalInjected": 4507624,
+        "population": 1688547,
+        "totalOnceInjected": 1704118,
+        "totalTwiceInjected": 1617395,
+        "totalThriceInjected": 1186111,
+        "totalFourTimesInjected": 0,
+        "totalFiveTimesInjected": 0,
+        "totalSixTimesInjected": 0,
+        "totalSevenTimesInjected": 0,
+        "totalEightTimesInjected": 0,
+        "totalNineTimesInjected": 0,
+        "totalTenTimesInjected": 0,
+        "lastOnceInjected": 0,
+        "lastTwiceInjected": 0,
+        "currentTeamInjectInPractice": 0,
+        "totalVaccineAllocated": 2397297,
+        "popOverEighteen": 1361733,
+        "totalVaccineAllocatedReality": 2998000,
+        "provinceCode": 80,
+        "provinceName": "Long An",
+        "vaccineInjectionDailies": {
+          "vaccineInjectionDailies": {
+            "reportedDate": "2022-04-30T17:00:00Z",
+            "totalInjected": 0
+          }
+        }
+      },
+      {
+        "totalVaccinationLocation": 167,
+        "totalInjected": 3704365,
+        "population": 1599504,
+        "totalOnceInjected": 1484035,
+        "totalTwiceInjected": 1331487,
+        "totalThriceInjected": 888843,
+        "totalFourTimesInjected": 0,
+        "totalFiveTimesInjected": 0,
+        "totalSixTimesInjected": 0,
+        "totalSevenTimesInjected": 0,
+        "totalEightTimesInjected": 0,
+        "totalNineTimesInjected": 0,
+        "totalTenTimesInjected": 0,
+        "lastOnceInjected": 0,
+        "lastTwiceInjected": 0,
+        "currentTeamInjectInPractice": 0,
+        "totalVaccineAllocated": 2244402,
+        "popOverEighteen": 1181264,
+        "totalVaccineAllocatedReality": 2705690,
+        "provinceCode": 87,
+        "provinceName": "Đồng Tháp",
+        "vaccineInjectionDailies": {
+          "vaccineInjectionDailies": {
+            "reportedDate": "2022-04-30T17:00:00Z",
+            "totalInjected": 0
+          }
+        }
+      },
+      {
+        "totalVaccinationLocation": 224,
+        "totalInjected": 2871198,
+        "population": 1513847,
+        "totalOnceInjected": 1171879,
+        "totalTwiceInjected": 1030409,
+        "totalThriceInjected": 606083,
+        "totalFourTimesInjected": 0,
+        "totalFiveTimesInjected": 0,
+        "totalSixTimesInjected": 0,
+        "totalSevenTimesInjected": 0,
+        "totalEightTimesInjected": 0,
+        "totalNineTimesInjected": 0,
+        "totalTenTimesInjected": 62827,
+        "lastOnceInjected": 0,
+        "lastTwiceInjected": 0,
+        "currentTeamInjectInPractice": 0,
+        "totalVaccineAllocated": 1760170,
+        "popOverEighteen": 950154,
+        "totalVaccineAllocatedReality": 1795832,
+        "provinceCode": 64,
+        "provinceName": "Gia Lai",
+        "vaccineInjectionDailies": {
+          "vaccineInjectionDailies": {
+            "reportedDate": "2022-04-30T17:00:00Z",
+            "totalInjected": 0
+          }
+        }
+      },
+      {
+        "totalVaccinationLocation": 289,
+        "totalInjected": 3325955,
+        "population": 1495812,
+        "totalOnceInjected": 1228441,
+        "totalTwiceInjected": 1184189,
+        "totalThriceInjected": 899641,
+        "totalFourTimesInjected": 0,
+        "totalFiveTimesInjected": 0,
+        "totalSixTimesInjected": 0,
+        "totalSevenTimesInjected": 0,
+        "totalEightTimesInjected": 0,
+        "totalNineTimesInjected": 0,
+        "totalTenTimesInjected": 13684,
+        "lastOnceInjected": 0,
+        "lastTwiceInjected": 0,
+        "currentTeamInjectInPractice": 0,
+        "totalVaccineAllocated": 1966932,
+        "popOverEighteen": 1250469,
+        "totalVaccineAllocatedReality": 2149770,
+        "provinceCode": 49,
+        "provinceName": "Quảng Nam",
+        "vaccineInjectionDailies": {
+          "vaccineInjectionDailies": {
+            "reportedDate": "2022-04-30T17:00:00Z",
+            "totalInjected": 2503
+          }
+        }
+      },
+      {
+        "totalVaccinationLocation": 220,
+        "totalInjected": 3280782,
+        "population": 1486918,
+        "totalOnceInjected": 1207067,
+        "totalTwiceInjected": 1161034,
+        "totalThriceInjected": 912681,
+        "totalFourTimesInjected": 0,
+        "totalFiveTimesInjected": 0,
+        "totalSixTimesInjected": 0,
+        "totalSevenTimesInjected": 0,
+        "totalEightTimesInjected": 0,
+        "totalNineTimesInjected": 0,
+        "totalTenTimesInjected": 0,
+        "lastOnceInjected": 0,
+        "lastTwiceInjected": 0,
+        "currentTeamInjectInPractice": 0,
+        "totalVaccineAllocated": 1966752,
+        "popOverEighteen": 1110818,
+        "totalVaccineAllocatedReality": 1902530,
+        "provinceCode": 52,
+        "provinceName": "Bình Định",
+        "vaccineInjectionDailies": {
+          "vaccineInjectionDailies": {
+            "reportedDate": "2022-04-30T17:00:00Z",
+            "totalInjected": 0
+          }
+        }
+      },
+      {
+        "totalVaccinationLocation": 0,
+        "totalInjected": 3178304,
+        "population": 1463726,
+        "totalOnceInjected": 1168515,
+        "totalTwiceInjected": 1138722,
+        "totalThriceInjected": 871067,
+        "totalFourTimesInjected": 0,
+        "totalFiveTimesInjected": 0,
+        "totalSixTimesInjected": 0,
+        "totalSevenTimesInjected": 0,
+        "totalEightTimesInjected": 0,
+        "totalNineTimesInjected": 0,
+        "totalTenTimesInjected": 0,
+        "lastOnceInjected": 0,
+        "lastTwiceInjected": 0,
+        "currentTeamInjectInPractice": 0,
+        "totalVaccineAllocated": 1894260,
+        "popOverEighteen": 1029489,
+        "totalVaccineAllocatedReality": 1729400,
+        "provinceCode": 25,
+        "provinceName": "Phú Thọ",
+        "vaccineInjectionDailies": {
+          "vaccineInjectionDailies": {
+            "reportedDate": "2022-04-30T17:00:00Z",
+            "totalInjected": 0
+          }
+        }
+      },
+      {
+        "totalVaccinationLocation": 8,
+        "totalInjected": 3519907,
+        "population": 1368840,
+        "totalOnceInjected": 1281515,
+        "totalTwiceInjected": 1204723,
+        "totalThriceInjected": 1033669,
+        "totalFourTimesInjected": 0,
+        "totalFiveTimesInjected": 0,
+        "totalSixTimesInjected": 0,
+        "totalSevenTimesInjected": 0,
+        "totalEightTimesInjected": 0,
+        "totalNineTimesInjected": 0,
+        "totalTenTimesInjected": 0,
+        "lastOnceInjected": 0,
+        "lastTwiceInjected": 0,
+        "currentTeamInjectInPractice": 0,
+        "totalVaccineAllocated": 1871988,
+        "popOverEighteen": 985257,
+        "totalVaccineAllocatedReality": 1865510,
+        "provinceCode": 27,
+        "provinceName": "Bắc Ninh",
+        "vaccineInjectionDailies": {
+          "vaccineInjectionDailies": {
+            "reportedDate": "2022-04-30T17:00:00Z",
+            "totalInjected": 0
+          }
+        }
+      },
+      {
+        "totalVaccinationLocation": 202,
+        "totalInjected": 3192738,
+        "population": 1320324,
+        "totalOnceInjected": 1161854,
+        "totalTwiceInjected": 1108849,
+        "totalThriceInjected": 922035,
+        "totalFourTimesInjected": 0,
+        "totalFiveTimesInjected": 0,
+        "totalSixTimesInjected": 0,
+        "totalSevenTimesInjected": 0,
+        "totalEightTimesInjected": 0,
+        "totalNineTimesInjected": 0,
+        "totalTenTimesInjected": 0,
+        "lastOnceInjected": 0,
+        "lastTwiceInjected": 0,
+        "currentTeamInjectInPractice": 0,
+        "totalVaccineAllocated": 1778123,
+        "popOverEighteen": 1013446,
+        "totalVaccineAllocatedReality": 2121498,
+        "provinceCode": 22,
+        "provinceName": "Quảng Ninh",
+        "vaccineInjectionDailies": {
+          "vaccineInjectionDailies": {
+            "reportedDate": "2022-04-30T17:00:00Z",
+            "totalInjected": 0
+          }
+        }
+      },
+      {
+        "totalVaccinationLocation": 164,
+        "totalInjected": 3033419,
+        "population": 1296606,
+        "totalOnceInjected": 1157317,
+        "totalTwiceInjected": 1092009,
+        "totalThriceInjected": 784093,
+        "totalFourTimesInjected": 0,
+        "totalFiveTimesInjected": 0,
+        "totalSixTimesInjected": 0,
+        "totalSevenTimesInjected": 0,
+        "totalEightTimesInjected": 0,
+        "totalNineTimesInjected": 0,
+        "totalTenTimesInjected": 0,
+        "lastOnceInjected": 0,
+        "lastTwiceInjected": 0,
+        "currentTeamInjectInPractice": 0,
+        "totalVaccineAllocated": 1642299,
+        "popOverEighteen": 901167,
+        "totalVaccineAllocatedReality": 1952774,
+        "provinceCode": 68,
+        "provinceName": "Lâm Đồng",
+        "vaccineInjectionDailies": {
+          "vaccineInjectionDailies": {
+            "reportedDate": "2022-04-30T17:00:00Z",
+            "totalInjected": 0
+          }
+        }
+      },
+      {
+        "totalVaccinationLocation": 0,
+        "totalInjected": 2424913,
+        "population": 1288866,
+        "totalOnceInjected": 930932,
+        "totalTwiceInjected": 879907,
+        "totalThriceInjected": 614074,
+        "totalFourTimesInjected": 0,
+        "totalFiveTimesInjected": 0,
+        "totalSixTimesInjected": 0,
+        "totalSevenTimesInjected": 0,
+        "totalEightTimesInjected": 0,
+        "totalNineTimesInjected": 0,
+        "totalTenTimesInjected": 0,
+        "lastOnceInjected": 0,
+        "lastTwiceInjected": 0,
+        "currentTeamInjectInPractice": 0,
+        "totalVaccineAllocated": 1642572,
+        "popOverEighteen": 795436,
+        "totalVaccineAllocatedReality": 1220150,
+        "provinceCode": 42,
+        "provinceName": "Hà Tĩnh",
+        "vaccineInjectionDailies": {
+          "vaccineInjectionDailies": {
+            "reportedDate": "2022-04-30T17:00:00Z",
+            "totalInjected": 0
+          }
+        }
+      },
+      {
+        "totalVaccinationLocation": 173,
+        "totalInjected": 3076385,
+        "population": 1288463,
+        "totalOnceInjected": 1152481,
+        "totalTwiceInjected": 1120354,
+        "totalThriceInjected": 803550,
+        "totalFourTimesInjected": 0,
+        "totalFiveTimesInjected": 0,
+        "totalSixTimesInjected": 0,
+        "totalSevenTimesInjected": 0,
+        "totalEightTimesInjected": 0,
+        "totalNineTimesInjected": 0,
+        "totalTenTimesInjected": 0,
+        "lastOnceInjected": 0,
+        "lastTwiceInjected": 0,
+        "currentTeamInjectInPractice": 0,
+        "totalVaccineAllocated": 1863239,
+        "popOverEighteen": 980652,
+        "totalVaccineAllocatedReality": 1882520,
+        "provinceCode": 83,
+        "provinceName": "Bến Tre",
+        "vaccineInjectionDailies": {
+          "vaccineInjectionDailies": {
+            "reportedDate": "2022-04-30T17:00:00Z",
+            "totalInjected": 0
+          }
+        }
+      },
+      {
+        "totalVaccinationLocation": 39,
+        "totalInjected": 2802088,
+        "population": 1286751,
+        "totalOnceInjected": 1094184,
+        "totalTwiceInjected": 995622,
+        "totalThriceInjected": 712282,
+        "totalFourTimesInjected": 0,
+        "totalFiveTimesInjected": 0,
+        "totalSixTimesInjected": 0,
+        "totalSevenTimesInjected": 0,
+        "totalEightTimesInjected": 0,
+        "totalNineTimesInjected": 0,
+        "totalTenTimesInjected": 0,
+        "lastOnceInjected": 0,
+        "lastTwiceInjected": 0,
+        "currentTeamInjectInPractice": 0,
+        "totalVaccineAllocated": 1693856,
+        "popOverEighteen": 918061,
+        "totalVaccineAllocatedReality": 1271330,
+        "provinceCode": 19,
+        "provinceName": "Thái Nguyên",
+        "vaccineInjectionDailies": {
+          "vaccineInjectionDailies": {
+            "reportedDate": "2022-04-30T17:00:00Z",
+            "totalInjected": 0
+          }
+        }
+      },
+      {
+        "totalVaccinationLocation": 171,
+        "totalInjected": 2559188,
+        "population": 1252731,
+        "totalOnceInjected": 969545,
+        "totalTwiceInjected": 880770,
+        "totalThriceInjected": 626168,
+        "totalFourTimesInjected": 0,
+        "totalFiveTimesInjected": 0,
+        "totalSixTimesInjected": 0,
+        "totalSevenTimesInjected": 0,
+        "totalEightTimesInjected": 0,
+        "totalNineTimesInjected": 0,
+        "totalTenTimesInjected": 82705,
+        "lastOnceInjected": 0,
+        "lastTwiceInjected": 0,
+        "currentTeamInjectInPractice": 0,
+        "totalVaccineAllocated": 1705117,
+        "popOverEighteen": 935528,
+        "totalVaccineAllocatedReality": 1686572,
+        "provinceCode": 33,
+        "provinceName": "Hưng Yên",
+        "vaccineInjectionDailies": {
+          "vaccineInjectionDailies": {
+            "reportedDate": "2022-04-30T17:00:00Z",
+            "totalInjected": 0
+          }
+        }
+      },
+      {
+        "totalVaccinationLocation": 0,
+        "totalInjected": 2310837,
+        "population": 1248415,
+        "totalOnceInjected": 883307,
+        "totalTwiceInjected": 803224,
+        "totalThriceInjected": 519730,
+        "totalFourTimesInjected": 0,
+        "totalFiveTimesInjected": 0,
+        "totalSixTimesInjected": 0,
+        "totalSevenTimesInjected": 0,
+        "totalEightTimesInjected": 0,
+        "totalNineTimesInjected": 0,
+        "totalTenTimesInjected": 104576,
+        "lastOnceInjected": 0,
+        "lastTwiceInjected": 0,
+        "currentTeamInjectInPractice": 0,
+        "totalVaccineAllocated": 1458572,
+        "popOverEighteen": 786097,
+        "totalVaccineAllocatedReality": 1193980,
+        "provinceCode": 14,
+        "provinceName": "Sơn La",
+        "vaccineInjectionDailies": {
+          "vaccineInjectionDailies": {
+            "reportedDate": "2022-04-30T17:00:00Z",
+            "totalInjected": 1069
+          }
+        }
+      },
+      {
+        "totalVaccinationLocation": 19,
+        "totalInjected": 2856015,
+        "population": 1235171,
+        "totalOnceInjected": 1016924,
+        "totalTwiceInjected": 1401308,
+        "totalThriceInjected": 437783,
+        "totalFourTimesInjected": 0,
+        "totalFiveTimesInjected": 0,
+        "totalSixTimesInjected": 0,
+        "totalSevenTimesInjected": 0,
+        "totalEightTimesInjected": 0,
+        "totalNineTimesInjected": 0,
+        "totalTenTimesInjected": 0,
+        "lastOnceInjected": 0,
+        "lastTwiceInjected": 0,
+        "currentTeamInjectInPractice": 0,
+        "totalVaccineAllocated": 1789361,
+        "popOverEighteen": 941769,
+        "totalVaccineAllocatedReality": 2132068,
+        "provinceCode": 92,
+        "provinceName": "Cần Thơ",
+        "vaccineInjectionDailies": {
+          "vaccineInjectionDailies": {
+            "reportedDate": "2022-04-30T17:00:00Z",
+            "totalInjected": 245
+          }
+        }
+      },
+      {
+        "totalVaccinationLocation": 205,
+        "totalInjected": 2546347,
+        "population": 1231697,
+        "totalOnceInjected": 977905,
+        "totalTwiceInjected": 921255,
+        "totalThriceInjected": 645296,
+        "totalFourTimesInjected": 0,
+        "totalFiveTimesInjected": 0,
+        "totalSixTimesInjected": 0,
+        "totalSevenTimesInjected": 0,
+        "totalEightTimesInjected": 0,
+        "totalNineTimesInjected": 0,
+        "totalTenTimesInjected": 1891,
+        "lastOnceInjected": 0,
+        "lastTwiceInjected": 0,
+        "currentTeamInjectInPractice": 0,
+        "totalVaccineAllocated": 1678654,
+        "popOverEighteen": 883502,
+        "totalVaccineAllocatedReality": 1562604,
+        "provinceCode": 51,
+        "provinceName": "Quảng Ngãi",
+        "vaccineInjectionDailies": {
+          "vaccineInjectionDailies": {
+            "reportedDate": "2022-04-30T17:00:00Z",
+            "totalInjected": 0
+          }
+        }
+      },
+      {
+        "totalVaccinationLocation": 66,
+        "totalInjected": 2951913,
+        "population": 1231107,
+        "totalOnceInjected": 1117275,
+        "totalTwiceInjected": 1070068,
+        "totalThriceInjected": 735680,
+        "totalFourTimesInjected": 0,
+        "totalFiveTimesInjected": 0,
+        "totalSixTimesInjected": 0,
+        "totalSevenTimesInjected": 0,
+        "totalEightTimesInjected": 0,
+        "totalNineTimesInjected": 0,
+        "totalTenTimesInjected": 28890,
+        "lastOnceInjected": 0,
+        "lastTwiceInjected": 0,
+        "currentTeamInjectInPractice": 0,
+        "totalVaccineAllocated": 1695222,
+        "popOverEighteen": 901731,
+        "totalVaccineAllocatedReality": 1886770,
+        "provinceCode": 56,
+        "provinceName": "Khánh Hòa",
+        "vaccineInjectionDailies": {
+          "vaccineInjectionDailies": {
+            "reportedDate": "2022-04-30T17:00:00Z",
+            "totalInjected": 0
+          }
+        }
+      },
+      {
+        "totalVaccinationLocation": 141,
+        "totalInjected": 2589400,
+        "population": 1230808,
+        "totalOnceInjected": 1040606,
+        "totalTwiceInjected": 1005161,
+        "totalThriceInjected": 489959,
+        "totalFourTimesInjected": 0,
+        "totalFiveTimesInjected": 0,
+        "totalSixTimesInjected": 0,
+        "totalSevenTimesInjected": 0,
+        "totalEightTimesInjected": 0,
+        "totalNineTimesInjected": 0,
+        "totalTenTimesInjected": 53674,
+        "lastOnceInjected": 0,
+        "lastTwiceInjected": 0,
+        "currentTeamInjectInPractice": 0,
+        "totalVaccineAllocated": 1592509,
+        "popOverEighteen": 865494,
+        "totalVaccineAllocatedReality": 1701850,
+        "provinceCode": 60,
+        "provinceName": "Bình Thuận",
+        "vaccineInjectionDailies": {
+          "vaccineInjectionDailies": {
+            "reportedDate": "2022-04-30T17:00:00Z",
+            "totalInjected": 6782
+          }
+        }
+      },
+      {
+        "totalVaccinationLocation": 43,
+        "totalInjected": 2740769,
+        "population": 1199653,
+        "totalOnceInjected": 1031866,
+        "totalTwiceInjected": 976716,
+        "totalThriceInjected": 720531,
+        "totalFourTimesInjected": 0,
+        "totalFiveTimesInjected": 0,
+        "totalSixTimesInjected": 0,
+        "totalSevenTimesInjected": 0,
+        "totalEightTimesInjected": 0,
+        "totalNineTimesInjected": 0,
+        "totalTenTimesInjected": 11656,
+        "lastOnceInjected": 0,
+        "lastTwiceInjected": 0,
+        "currentTeamInjectInPractice": 0,
+        "totalVaccineAllocated": 1636586,
+        "popOverEighteen": 861361,
+        "totalVaccineAllocatedReality": 2114660,
+        "provinceCode": 94,
+        "provinceName": "Sóc Trăng",
+        "vaccineInjectionDailies": {
+          "vaccineInjectionDailies": {
+            "reportedDate": "2022-04-30T17:00:00Z",
+            "totalInjected": 0
+          }
+        }
+      },
+      {
+        "totalVaccinationLocation": 118,
+        "totalInjected": 2613462,
+        "population": 1194476,
+        "totalOnceInjected": 939295,
+        "totalTwiceInjected": 960605,
+        "totalThriceInjected": 713562,
+        "totalFourTimesInjected": 0,
+        "totalFiveTimesInjected": 0,
+        "totalSixTimesInjected": 0,
+        "totalSevenTimesInjected": 0,
+        "totalEightTimesInjected": 0,
+        "totalNineTimesInjected": 0,
+        "totalTenTimesInjected": 0,
+        "lastOnceInjected": 0,
+        "lastTwiceInjected": 0,
+        "currentTeamInjectInPractice": 0,
+        "totalVaccineAllocated": 1629385,
+        "popOverEighteen": 857571,
+        "totalVaccineAllocatedReality": 1677630,
+        "provinceCode": 96,
+        "provinceName": "Cà Mau",
+        "vaccineInjectionDailies": {
+          "vaccineInjectionDailies": {
+            "reportedDate": "2022-04-30T17:00:00Z",
+            "totalInjected": 0
+          }
+        }
+      },
+      {
+        "totalVaccinationLocation": 94,
+        "totalInjected": 2617215,
+        "population": 1169165,
+        "totalOnceInjected": 1063959,
+        "totalTwiceInjected": 998752,
+        "totalThriceInjected": 554504,
+        "totalFourTimesInjected": 0,
+        "totalFiveTimesInjected": 0,
+        "totalSixTimesInjected": 0,
+        "totalSevenTimesInjected": 0,
+        "totalEightTimesInjected": 0,
+        "totalNineTimesInjected": 0,
+        "totalTenTimesInjected": 0,
+        "lastOnceInjected": 0,
+        "lastTwiceInjected": 0,
+        "currentTeamInjectInPractice": 0,
+        "totalVaccineAllocated": 1658187,
+        "popOverEighteen": 954662,
+        "totalVaccineAllocatedReality": 2055900,
+        "provinceCode": 72,
+        "provinceName": "Tây Ninh",
+        "vaccineInjectionDailies": {
+          "vaccineInjectionDailies": {
+            "reportedDate": "2022-04-30T17:00:00Z",
+            "totalInjected": 0
+          }
+        }
+      },
+      {
+        "totalVaccinationLocation": 154,
+        "totalInjected": 2516924,
+        "population": 1154154,
+        "totalOnceInjected": 924097,
+        "totalTwiceInjected": 855072,
+        "totalThriceInjected": 699127,
+        "totalFourTimesInjected": 0,
+        "totalFiveTimesInjected": 0,
+        "totalSixTimesInjected": 0,
+        "totalSevenTimesInjected": 0,
+        "totalEightTimesInjected": 0,
+        "totalNineTimesInjected": 0,
+        "totalTenTimesInjected": 38628,
+        "lastOnceInjected": 0,
+        "lastTwiceInjected": 0,
+        "currentTeamInjectInPractice": 0,
+        "totalVaccineAllocated": 1453409,
+        "popOverEighteen": 789896,
+        "totalVaccineAllocatedReality": 1462250,
+        "provinceCode": 26,
+        "provinceName": "Vĩnh Phúc",
+        "vaccineInjectionDailies": {
+          "vaccineInjectionDailies": {
+            "reportedDate": "2022-04-30T17:00:00Z",
+            "totalInjected": 0
+          }
+        }
+      },
+      {
+        "totalVaccinationLocation": 109,
+        "totalInjected": 2811451,
+        "population": 1148313,
+        "totalOnceInjected": 1095200,
+        "totalTwiceInjected": 987112,
+        "totalThriceInjected": 729139,
+        "totalFourTimesInjected": 0,
+        "totalFiveTimesInjected": 0,
+        "totalSixTimesInjected": 0,
+        "totalSevenTimesInjected": 0,
+        "totalEightTimesInjected": 0,
+        "totalNineTimesInjected": 0,
+        "totalTenTimesInjected": 0,
+        "lastOnceInjected": 0,
+        "lastTwiceInjected": 0,
+        "currentTeamInjectInPractice": 0,
+        "totalVaccineAllocated": 1563924,
+        "popOverEighteen": 891244,
+        "totalVaccineAllocatedReality": 2034410,
+        "provinceCode": 77,
+        "provinceName": "Bà Rịa - Vũng Tàu",
+        "vaccineInjectionDailies": {
+          "vaccineInjectionDailies": {
+            "reportedDate": "2022-04-30T17:00:00Z",
+            "totalInjected": 0
+          }
+        }
+      },
+      {
+        "totalVaccinationLocation": 16,
+        "totalInjected": 2629268,
+        "population": 1134310,
+        "totalOnceInjected": 994039,
+        "totalTwiceInjected": 926743,
+        "totalThriceInjected": 668970,
+        "totalFourTimesInjected": 0,
+        "totalFiveTimesInjected": 0,
+        "totalSixTimesInjected": 0,
+        "totalSevenTimesInjected": 0,
+        "totalEightTimesInjected": 0,
+        "totalNineTimesInjected": 0,
+        "totalTenTimesInjected": 39516,
+        "lastOnceInjected": 0,
+        "lastTwiceInjected": 0,
+        "currentTeamInjectInPractice": 0,
+        "totalVaccineAllocated": 1571173,
+        "popOverEighteen": 885070,
+        "totalVaccineAllocatedReality": 1720782,
+        "provinceCode": 48,
+        "provinceName": "Đà Nẵng",
+        "vaccineInjectionDailies": {
+          "vaccineInjectionDailies": {
+            "reportedDate": "2022-04-30T17:00:00Z",
+            "totalInjected": 0
+          }
+        }
+      },
+      {
+        "totalVaccinationLocation": 154,
+        "totalInjected": 2487674,
+        "population": 1128620,
+        "totalOnceInjected": 903807,
+        "totalTwiceInjected": 871082,
+        "totalThriceInjected": 712785,
+        "totalFourTimesInjected": 0,
+        "totalFiveTimesInjected": 0,
+        "totalSixTimesInjected": 0,
+        "totalSevenTimesInjected": 0,
+        "totalEightTimesInjected": 0,
+        "totalNineTimesInjected": 0,
+        "totalTenTimesInjected": 0,
+        "lastOnceInjected": 0,
+        "lastTwiceInjected": 0,
+        "currentTeamInjectInPractice": 0,
+        "totalVaccineAllocated": 1481288,
+        "popOverEighteen": 779911,
+        "totalVaccineAllocatedReality": 1616626,
+        "provinceCode": 46,
+        "provinceName": "Thừa Thiên Huế",
+        "vaccineInjectionDailies": {
+          "vaccineInjectionDailies": {
+            "reportedDate": "2022-04-30T17:00:00Z",
+            "totalInjected": 12883
+          }
+        }
+      },
+      {
+        "totalVaccinationLocation": 124,
+        "totalInjected": 2526498,
+        "population": 1022791,
+        "totalOnceInjected": 893928,
+        "totalTwiceInjected": 857506,
+        "totalThriceInjected": 769179,
+        "totalFourTimesInjected": 0,
+        "totalFiveTimesInjected": 0,
+        "totalSixTimesInjected": 0,
+        "totalSevenTimesInjected": 0,
+        "totalEightTimesInjected": 0,
+        "totalNineTimesInjected": 0,
+        "totalTenTimesInjected": 5885,
+        "lastOnceInjected": 0,
+        "lastTwiceInjected": 0,
+        "currentTeamInjectInPractice": 0,
+        "totalVaccineAllocated": 1461149,
+        "popOverEighteen": 769026,
+        "totalVaccineAllocatedReality": 1733130,
+        "provinceCode": 86,
+        "provinceName": "Vĩnh Long",
+        "vaccineInjectionDailies": {
+          "vaccineInjectionDailies": {
+            "reportedDate": "2022-04-30T17:00:00Z",
+            "totalInjected": 0
+          }
+        }
+      },
+      {
+        "totalVaccinationLocation": 111,
+        "totalInjected": 2133686,
+        "population": 1009168,
+        "totalOnceInjected": 923045,
+        "totalTwiceInjected": 680255,
+        "totalThriceInjected": 530386,
+        "totalFourTimesInjected": 0,
+        "totalFiveTimesInjected": 0,
+        "totalSixTimesInjected": 0,
+        "totalSevenTimesInjected": 0,
+        "totalEightTimesInjected": 0,
+        "totalNineTimesInjected": 0,
+        "totalTenTimesInjected": 0,
+        "lastOnceInjected": 0,
+        "lastTwiceInjected": 0,
+        "currentTeamInjectInPractice": 0,
+        "totalVaccineAllocated": 1396109,
+        "popOverEighteen": 734794,
+        "totalVaccineAllocatedReality": 1353410,
+        "provinceCode": 84,
+        "provinceName": "Trà Vinh",
+        "vaccineInjectionDailies": {
+          "vaccineInjectionDailies": {
+            "reportedDate": "2022-04-30T17:00:00Z",
+            "totalInjected": 0
+          }
+        }
+      },
+      {
+        "totalVaccinationLocation": 141,
+        "totalInjected": 2261490,
+        "population": 994679,
+        "totalOnceInjected": 844965,
+        "totalTwiceInjected": 804888,
+        "totalThriceInjected": 611637,
+        "totalFourTimesInjected": 0,
+        "totalFiveTimesInjected": 0,
+        "totalSixTimesInjected": 0,
+        "totalSevenTimesInjected": 0,
+        "totalEightTimesInjected": 0,
+        "totalNineTimesInjected": 0,
+        "totalTenTimesInjected": 0,
+        "lastOnceInjected": 0,
+        "lastTwiceInjected": 0,
+        "currentTeamInjectInPractice": 0,
+        "totalVaccineAllocated": 1285789,
+        "popOverEighteen": 758594,
+        "totalVaccineAllocatedReality": 1528060,
+        "provinceCode": 70,
+        "provinceName": "Bình Phước",
+        "vaccineInjectionDailies": {
+          "vaccineInjectionDailies": {
+            "reportedDate": "2022-04-30T17:00:00Z",
+            "totalInjected": 0
+          }
+        }
+      },
+      {
+        "totalVaccinationLocation": 99,
+        "totalInjected": 2092745,
+        "population": 982487,
+        "totalOnceInjected": 776610,
+        "totalTwiceInjected": 743766,
+        "totalThriceInjected": 572369,
+        "totalFourTimesInjected": 0,
+        "totalFiveTimesInjected": 0,
+        "totalSixTimesInjected": 0,
+        "totalSevenTimesInjected": 0,
+        "totalEightTimesInjected": 0,
+        "totalNineTimesInjected": 0,
+        "totalTenTimesInjected": 0,
+        "lastOnceInjected": 0,
+        "lastTwiceInjected": 0,
+        "currentTeamInjectInPractice": 0,
+        "totalVaccineAllocated": 1279525,
+        "popOverEighteen": 695394,
+        "totalVaccineAllocatedReality": 1239970,
+        "provinceCode": 37,
+        "provinceName": "Ninh Bình",
+        "vaccineInjectionDailies": {
+          "vaccineInjectionDailies": {
+            "reportedDate": "2022-04-30T17:00:00Z",
+            "totalInjected": 0
+          }
+        }
+      },
+      {
+        "totalVaccinationLocation": 78,
+        "totalInjected": 1826245,
+        "population": 961152,
+        "totalOnceInjected": 725776,
+        "totalTwiceInjected": 662493,
+        "totalThriceInjected": 338033,
+        "totalFourTimesInjected": 0,
+        "totalFiveTimesInjected": 0,
+        "totalSixTimesInjected": 0,
+        "totalSevenTimesInjected": 0,
+        "totalEightTimesInjected": 0,
+        "totalNineTimesInjected": 0,
+        "totalTenTimesInjected": 99943,
+        "lastOnceInjected": 0,
+        "lastTwiceInjected": 0,
+        "currentTeamInjectInPractice": 0,
+        "totalVaccineAllocated": 1171033,
+        "popOverEighteen": 649673,
+        "totalVaccineAllocatedReality": 1108954,
+        "provinceCode": 54,
+        "provinceName": "Phú Yên",
+        "vaccineInjectionDailies": {
+          "vaccineInjectionDailies": {
+            "reportedDate": "2022-04-30T17:00:00Z",
+            "totalInjected": 0
+          }
+        }
+      },
+      {
+        "totalVaccinationLocation": 0,
+        "totalInjected": 1734172,
+        "population": 907236,
+        "totalOnceInjected": 671818,
+        "totalTwiceInjected": 647394,
+        "totalThriceInjected": 413293,
+        "totalFourTimesInjected": 0,
+        "totalFiveTimesInjected": 0,
+        "totalSixTimesInjected": 0,
+        "totalSevenTimesInjected": 0,
+        "totalEightTimesInjected": 0,
+        "totalNineTimesInjected": 0,
+        "totalTenTimesInjected": 1667,
+        "lastOnceInjected": 0,
+        "lastTwiceInjected": 0,
+        "currentTeamInjectInPractice": 0,
+        "totalVaccineAllocated": 1275056,
+        "popOverEighteen": 572580,
+        "totalVaccineAllocatedReality": 1269690,
+        "provinceCode": 95,
+        "provinceName": "Bạc Liêu",
+        "vaccineInjectionDailies": {
+          "vaccineInjectionDailies": {
+            "reportedDate": "2022-04-30T17:00:00Z",
+            "totalInjected": 0
+          }
+        }
+      },
+      {
+        "totalVaccinationLocation": 0,
+        "totalInjected": 1662777,
+        "population": 895430,
+        "totalOnceInjected": 616627,
+        "totalTwiceInjected": 586535,
+        "totalThriceInjected": 402930,
+        "totalFourTimesInjected": 0,
+        "totalFiveTimesInjected": 0,
+        "totalSixTimesInjected": 0,
+        "totalSevenTimesInjected": 0,
+        "totalEightTimesInjected": 0,
+        "totalNineTimesInjected": 0,
+        "totalTenTimesInjected": 56685,
+        "lastOnceInjected": 0,
+        "lastTwiceInjected": 0,
+        "currentTeamInjectInPractice": 0,
+        "totalVaccineAllocated": 1135015,
+        "popOverEighteen": 611974,
+        "totalVaccineAllocatedReality": 978810,
+        "provinceCode": 44,
+        "provinceName": "Quảng Bình",
+        "vaccineInjectionDailies": {
+          "vaccineInjectionDailies": {
+            "reportedDate": "2022-04-30T17:00:00Z",
+            "totalInjected": 454
+          }
+        }
+      },
+      {
+        "totalVaccinationLocation": 0,
+        "totalInjected": 1625450,
+        "population": 854679,
+        "totalOnceInjected": 497313,
+        "totalTwiceInjected": 483758,
+        "totalThriceInjected": 295457,
+        "totalFourTimesInjected": 0,
+        "totalFiveTimesInjected": 0,
+        "totalSixTimesInjected": 0,
+        "totalSevenTimesInjected": 0,
+        "totalEightTimesInjected": 0,
+        "totalNineTimesInjected": 0,
+        "totalTenTimesInjected": 348922,
+        "lastOnceInjected": 0,
+        "lastTwiceInjected": 0,
+        "currentTeamInjectInPractice": 0,
+        "totalVaccineAllocated": 1145979,
+        "popOverEighteen": 490008,
+        "totalVaccineAllocatedReality": 1128820,
+        "provinceCode": 2,
+        "provinceName": "Hà Giang",
+        "vaccineInjectionDailies": {
+          "vaccineInjectionDailies": {
+            "reportedDate": "2022-04-30T17:00:00Z",
+            "totalInjected": 0
+          }
+        }
+      },
+      {
+        "totalVaccinationLocation": 0,
+        "totalInjected": 1789514,
+        "population": 854131,
+        "totalOnceInjected": 646825,
+        "totalTwiceInjected": 609293,
+        "totalThriceInjected": 533396,
+        "totalFourTimesInjected": 0,
+        "totalFiveTimesInjected": 0,
+        "totalSixTimesInjected": 0,
+        "totalSevenTimesInjected": 0,
+        "totalEightTimesInjected": 0,
+        "totalNineTimesInjected": 0,
+        "totalTenTimesInjected": 0,
+        "lastOnceInjected": 0,
+        "lastTwiceInjected": 0,
+        "currentTeamInjectInPractice": 0,
+        "totalVaccineAllocated": 1100234,
+        "popOverEighteen": 570146,
+        "totalVaccineAllocatedReality": 1046120,
+        "provinceCode": 17,
+        "provinceName": "Hoà Bình",
+        "vaccineInjectionDailies": {
+          "vaccineInjectionDailies": {
+            "reportedDate": "2022-04-30T17:00:00Z",
+            "totalInjected": 15184
+          }
+        }
+      },
+      {
+        "totalVaccinationLocation": 135,
+        "totalInjected": 1926845,
+        "population": 852800,
+        "totalOnceInjected": 668025,
+        "totalTwiceInjected": 648121,
+        "totalThriceInjected": 610699,
+        "totalFourTimesInjected": 0,
+        "totalFiveTimesInjected": 0,
+        "totalSixTimesInjected": 0,
+        "totalSevenTimesInjected": 0,
+        "totalEightTimesInjected": 0,
+        "totalNineTimesInjected": 0,
+        "totalTenTimesInjected": 0,
+        "lastOnceInjected": 0,
+        "lastTwiceInjected": 0,
+        "currentTeamInjectInPractice": 0,
+        "totalVaccineAllocated": 1126483,
+        "popOverEighteen": 612219,
+        "totalVaccineAllocatedReality": 1213520,
+        "provinceCode": 35,
+        "provinceName": "Hà Nam",
+        "vaccineInjectionDailies": {
+          "vaccineInjectionDailies": {
+            "reportedDate": "2022-04-30T17:00:00Z",
+            "totalInjected": 0
+          }
+        }
+      },
+      {
+        "totalVaccinationLocation": 191,
+        "totalInjected": 1871560,
+        "population": 821030,
+        "totalOnceInjected": 619651,
+        "totalTwiceInjected": 588281,
+        "totalThriceInjected": 595832,
+        "totalFourTimesInjected": 0,
+        "totalFiveTimesInjected": 0,
+        "totalSixTimesInjected": 0,
+        "totalSevenTimesInjected": 0,
+        "totalEightTimesInjected": 0,
+        "totalNineTimesInjected": 0,
+        "totalTenTimesInjected": 67796,
+        "lastOnceInjected": 0,
+        "lastTwiceInjected": 0,
+        "currentTeamInjectInPractice": 0,
+        "totalVaccineAllocated": 1039328,
+        "popOverEighteen": 510271,
+        "totalVaccineAllocatedReality": 1034300,
+        "provinceCode": 15,
+        "provinceName": "Yên Bái",
+        "vaccineInjectionDailies": {
+          "vaccineInjectionDailies": {
+            "reportedDate": "2022-04-30T17:00:00Z",
+            "totalInjected": 0
+          }
+        }
+      },
+      {
+        "totalVaccinationLocation": 25,
+        "totalInjected": 1564545,
+        "population": 784811,
+        "totalOnceInjected": 577296,
+        "totalTwiceInjected": 566932,
+        "totalThriceInjected": 406554,
+        "totalFourTimesInjected": 0,
+        "totalFiveTimesInjected": 0,
+        "totalSixTimesInjected": 0,
+        "totalSevenTimesInjected": 0,
+        "totalEightTimesInjected": 0,
+        "totalNineTimesInjected": 0,
+        "totalTenTimesInjected": 13763,
+        "lastOnceInjected": 0,
+        "lastTwiceInjected": 0,
+        "currentTeamInjectInPractice": 0,
+        "totalVaccineAllocated": 985752,
+        "popOverEighteen": 535735,
+        "totalVaccineAllocatedReality": 930610,
+        "provinceCode": 8,
+        "provinceName": "Tuyên Quang",
+        "vaccineInjectionDailies": {
+          "vaccineInjectionDailies": {
+            "reportedDate": "2022-04-30T17:00:00Z",
+            "totalInjected": 0
+          }
+        }
+      },
+      {
+        "totalVaccinationLocation": 0,
+        "totalInjected": 1607302,
+        "population": 781655,
+        "totalOnceInjected": 596137,
+        "totalTwiceInjected": 569530,
+        "totalThriceInjected": 424432,
+        "totalFourTimesInjected": 0,
+        "totalFiveTimesInjected": 0,
+        "totalSixTimesInjected": 0,
+        "totalSevenTimesInjected": 0,
+        "totalEightTimesInjected": 0,
+        "totalNineTimesInjected": 0,
+        "totalTenTimesInjected": 17203,
+        "lastOnceInjected": 0,
+        "lastTwiceInjected": 0,
+        "currentTeamInjectInPractice": 0,
+        "totalVaccineAllocated": 1017262,
+        "popOverEighteen": 558242,
+        "totalVaccineAllocatedReality": 1117220,
+        "provinceCode": 20,
+        "provinceName": "Lạng Sơn",
+        "vaccineInjectionDailies": {
+          "vaccineInjectionDailies": {
+            "reportedDate": "2022-04-30T17:00:00Z",
+            "totalInjected": 0
+          }
+        }
+      },
+      {
+        "totalVaccinationLocation": 86,
+        "totalInjected": 1615739,
+        "population": 733017,
+        "totalOnceInjected": 619214,
+        "totalTwiceInjected": 587323,
+        "totalThriceInjected": 409202,
+        "totalFourTimesInjected": 0,
+        "totalFiveTimesInjected": 0,
+        "totalSixTimesInjected": 0,
+        "totalSevenTimesInjected": 0,
+        "totalEightTimesInjected": 0,
+        "totalNineTimesInjected": 0,
+        "totalTenTimesInjected": 0,
+        "lastOnceInjected": 0,
+        "lastTwiceInjected": 0,
+        "currentTeamInjectInPractice": 0,
+        "totalVaccineAllocated": 1018710,
+        "popOverEighteen": 536163,
+        "totalVaccineAllocatedReality": 1190250,
+        "provinceCode": 93,
+        "provinceName": "Hậu Giang",
+        "vaccineInjectionDailies": {
+          "vaccineInjectionDailies": {
+            "reportedDate": "2022-04-30T17:00:00Z",
+            "totalInjected": 0
+          }
+        }
+      },
+      {
+        "totalVaccinationLocation": 171,
+        "totalInjected": 1656456,
+        "population": 730420,
+        "totalOnceInjected": 554115,
+        "totalTwiceInjected": 529037,
+        "totalThriceInjected": 573304,
+        "totalFourTimesInjected": 0,
+        "totalFiveTimesInjected": 0,
+        "totalSixTimesInjected": 0,
+        "totalSevenTimesInjected": 0,
+        "totalEightTimesInjected": 0,
+        "totalNineTimesInjected": 0,
+        "totalTenTimesInjected": 0,
+        "lastOnceInjected": 0,
+        "lastTwiceInjected": 0,
+        "currentTeamInjectInPractice": 0,
+        "totalVaccineAllocated": 856325,
+        "popOverEighteen": 445164,
+        "totalVaccineAllocatedReality": 933550,
+        "provinceCode": 10,
+        "provinceName": "Lào Cai",
+        "vaccineInjectionDailies": {
+          "vaccineInjectionDailies": {
+            "reportedDate": "2022-04-30T17:00:00Z",
+            "totalInjected": 0
+          }
+        }
+      },
+      {
+        "totalVaccinationLocation": 141,
+        "totalInjected": 1316581,
+        "population": 632375,
+        "totalOnceInjected": 509053,
+        "totalTwiceInjected": 483399,
+        "totalThriceInjected": 324112,
+        "totalFourTimesInjected": 0,
+        "totalFiveTimesInjected": 0,
+        "totalSixTimesInjected": 0,
+        "totalSevenTimesInjected": 0,
+        "totalEightTimesInjected": 0,
+        "totalNineTimesInjected": 0,
+        "totalTenTimesInjected": 17,
+        "lastOnceInjected": 0,
+        "lastTwiceInjected": 0,
+        "currentTeamInjectInPractice": 0,
+        "totalVaccineAllocated": 786243,
+        "popOverEighteen": 463442,
+        "totalVaccineAllocatedReality": 848182,
+        "provinceCode": 45,
+        "provinceName": "Quảng Trị",
+        "vaccineInjectionDailies": {
+          "vaccineInjectionDailies": {
+            "reportedDate": "2022-04-30T17:00:00Z",
+            "totalInjected": 59
+          }
+        }
+      },
+      {
+        "totalVaccinationLocation": 83,
+        "totalInjected": 1358002,
+        "population": 622168,
+        "totalOnceInjected": 488370,
+        "totalTwiceInjected": 465919,
+        "totalThriceInjected": 403713,
+        "totalFourTimesInjected": 0,
+        "totalFiveTimesInjected": 0,
+        "totalSixTimesInjected": 0,
+        "totalSevenTimesInjected": 0,
+        "totalEightTimesInjected": 0,
+        "totalNineTimesInjected": 0,
+        "totalTenTimesInjected": 0,
+        "lastOnceInjected": 0,
+        "lastTwiceInjected": 0,
+        "currentTeamInjectInPractice": 0,
+        "totalVaccineAllocated": 723091,
+        "popOverEighteen": 404872,
+        "totalVaccineAllocatedReality": 819420,
+        "provinceCode": 67,
+        "provinceName": "Đắk Nông",
+        "vaccineInjectionDailies": {
+          "vaccineInjectionDailies": {
+            "reportedDate": "2022-04-30T17:00:00Z",
+            "totalInjected": 0
+          }
+        }
+      },
+      {
+        "totalVaccinationLocation": 1,
+        "totalInjected": 1149706,
+        "population": 598856,
+        "totalOnceInjected": 436714,
+        "totalTwiceInjected": 387748,
+        "totalThriceInjected": 325244,
+        "totalFourTimesInjected": 0,
+        "totalFiveTimesInjected": 0,
+        "totalSixTimesInjected": 0,
+        "totalSevenTimesInjected": 0,
+        "totalEightTimesInjected": 0,
+        "totalNineTimesInjected": 0,
+        "totalTenTimesInjected": 0,
+        "lastOnceInjected": 0,
+        "lastTwiceInjected": 0,
+        "currentTeamInjectInPractice": 0,
+        "totalVaccineAllocated": 663416,
+        "popOverEighteen": 339186,
+        "totalVaccineAllocatedReality": 629460,
+        "provinceCode": 11,
+        "provinceName": "Điện Biên",
+        "vaccineInjectionDailies": {
+          "vaccineInjectionDailies": {
+            "reportedDate": "2022-04-30T17:00:00Z",
+            "totalInjected": 0
+          }
+        }
+      },
+      {
+        "totalVaccinationLocation": 73,
+        "totalInjected": 1302351,
+        "population": 590467,
+        "totalOnceInjected": 482343,
+        "totalTwiceInjected": 461879,
+        "totalThriceInjected": 355343,
+        "totalFourTimesInjected": 0,
+        "totalFiveTimesInjected": 0,
+        "totalSixTimesInjected": 0,
+        "totalSevenTimesInjected": 0,
+        "totalEightTimesInjected": 0,
+        "totalNineTimesInjected": 0,
+        "totalTenTimesInjected": 2786,
+        "lastOnceInjected": 0,
+        "lastTwiceInjected": 0,
+        "currentTeamInjectInPractice": 0,
+        "totalVaccineAllocated": 739091,
+        "popOverEighteen": 409689,
+        "totalVaccineAllocatedReality": 892660,
+        "provinceCode": 58,
+        "provinceName": "Ninh Thuận",
+        "vaccineInjectionDailies": {
+          "vaccineInjectionDailies": {
+            "reportedDate": "2022-04-30T17:00:00Z",
+            "totalInjected": 0
+          }
+        }
+      },
+      {
+        "totalVaccinationLocation": 0,
+        "totalInjected": 1011494,
+        "population": 540438,
+        "totalOnceInjected": 388383,
+        "totalTwiceInjected": 362216,
+        "totalThriceInjected": 204520,
+        "totalFourTimesInjected": 0,
+        "totalFiveTimesInjected": 0,
+        "totalSixTimesInjected": 0,
+        "totalSevenTimesInjected": 0,
+        "totalEightTimesInjected": 0,
+        "totalNineTimesInjected": 0,
+        "totalTenTimesInjected": 56375,
+        "lastOnceInjected": 0,
+        "lastTwiceInjected": 0,
+        "currentTeamInjectInPractice": 0,
+        "totalVaccineAllocated": 611388,
+        "popOverEighteen": 338741,
+        "totalVaccineAllocatedReality": 621200,
+        "provinceCode": 62,
+        "provinceName": "Kon Tum",
+        "vaccineInjectionDailies": {
+          "vaccineInjectionDailies": {
+            "reportedDate": "2022-04-30T17:00:00Z",
+            "totalInjected": 7668
+          }
+        }
+      },
+      {
+        "totalVaccinationLocation": 31,
+        "totalInjected": 1035688,
+        "population": 530341,
+        "totalOnceInjected": 408232,
+        "totalTwiceInjected": 374462,
+        "totalThriceInjected": 239461,
+        "totalFourTimesInjected": 0,
+        "totalFiveTimesInjected": 0,
+        "totalSixTimesInjected": 0,
+        "totalSevenTimesInjected": 0,
+        "totalEightTimesInjected": 0,
+        "totalNineTimesInjected": 0,
+        "totalTenTimesInjected": 13533,
+        "lastOnceInjected": 0,
+        "lastTwiceInjected": 0,
+        "currentTeamInjectInPractice": 0,
+        "totalVaccineAllocated": 678910,
+        "popOverEighteen": 368973,
+        "totalVaccineAllocatedReality": 550460,
+        "provinceCode": 4,
+        "provinceName": "Cao Bằng",
+        "vaccineInjectionDailies": {
+          "vaccineInjectionDailies": {
+            "reportedDate": "2022-04-30T17:00:00Z",
+            "totalInjected": 0
+          }
+        }
+      },
+      {
+        "totalVaccinationLocation": 1,
+        "totalInjected": 886379,
+        "population": 460196,
+        "totalOnceInjected": 327333,
+        "totalTwiceInjected": 298057,
+        "totalThriceInjected": 260989,
+        "totalFourTimesInjected": 0,
+        "totalFiveTimesInjected": 0,
+        "totalSixTimesInjected": 0,
+        "totalSevenTimesInjected": 0,
+        "totalEightTimesInjected": 0,
+        "totalNineTimesInjected": 0,
+        "totalTenTimesInjected": 0,
+        "lastOnceInjected": 0,
+        "lastTwiceInjected": 0,
+        "currentTeamInjectInPractice": 0,
+        "totalVaccineAllocated": 496261,
+        "popOverEighteen": 282600,
+        "totalVaccineAllocatedReality": 517840,
+        "provinceCode": 12,
+        "provinceName": "Lai Châu",
+        "vaccineInjectionDailies": {
+          "vaccineInjectionDailies": {
+            "reportedDate": "2022-04-30T17:00:00Z",
+            "totalInjected": 0
+          }
+        }
+      },
+      {
+        "totalVaccinationLocation": 0,
+        "totalInjected": 639145,
+        "population": 313905,
+        "totalOnceInjected": 252534,
+        "totalTwiceInjected": 226529,
+        "totalThriceInjected": 160082,
+        "totalFourTimesInjected": 0,
+        "totalFiveTimesInjected": 0,
+        "totalSixTimesInjected": 0,
+        "totalSevenTimesInjected": 0,
+        "totalEightTimesInjected": 0,
+        "totalNineTimesInjected": 0,
+        "totalTenTimesInjected": 0,
+        "lastOnceInjected": 0,
+        "lastTwiceInjected": 0,
+        "currentTeamInjectInPractice": 0,
+        "totalVaccineAllocated": 409198,
+        "popOverEighteen": 220169,
+        "totalVaccineAllocatedReality": 343170,
+        "provinceCode": 6,
+        "provinceName": "Bắc Kạn",
+        "vaccineInjectionDailies": {
+          "vaccineInjectionDailies": {
+            "reportedDate": "2022-04-30T17:00:00Z",
+            "totalInjected": 0
+          }
+        }
+      }
+    ]
+  }
+}

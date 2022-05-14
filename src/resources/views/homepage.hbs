@@ -1,4 +1,41 @@
+<style>
+    #browser {
+        border: none;
+        width: 100%;
+        height: 100%;
+    }
+
+    #level2{
+        padding: 0 15px;
+        width: 250px;
+    }
+</style>
 <div id="map" class="leaflet-control coordinate">
+    <div id="level">
+        <div class="lv">
+            <div class="boxc" style="background-color: #ED2625"> </div>
+            <div>Cấp 4</div>
+        </div>
+        <div class="lv">
+            <div class="boxc" style="background-color: #F36B21"> </div>
+            <div>Cấp 3</div>
+        </div>
+        <div class="lv">
+            <div class="boxc" style="background-color: #FEF22F"> </div>
+            <div>Cấp 2</div>
+        </div>
+        <div class="lv">
+            <div class="boxc" style="background-color: #43B549"> </div>
+            <div>Cấp 1</div>
+        </div>
+    </div>
+
+
+    <div id="level2">
+        <input list="browsers" name="browser" id="browser" placeholder="Tìm kiếm tỉnh thành...">
+        <datalist id="browsers">
+        </datalist>
+    </div>
 </div>
 <div id="info">
     <div id="cityname">
@@ -21,10 +58,6 @@
                 <td>Ca tử vong</td>
                 <td style="text-align: right" id="ca-tu-vong">0</td>
             </tr>
-            <tr>
-                <td>Ca hồi phục</td>
-                <td style="text-align: right" id="ca-hoi-phuc">0</td>
-            </tr>
         </table>
         <table>
             <tr>
@@ -38,10 +71,6 @@
             <tr>
                 <td>Tiêm mũi 2</td>
                 <td style="text-align: right" id="tiem-mui-2">0</td>
-            </tr>
-            <tr>
-                <td>Tiêm mũi 3</td>
-                <td style="text-align: right" id="tiem-mui-3">0</td>
             </tr>
         </table>
     </div>
@@ -84,29 +113,4 @@
         }
 
     </script>
-</div>
-<div id="level">
-    <div class="lv">
-        <div class="boxc" style="background-color: #ED2625"> </div>
-        <div>Cấp 4</div>
-    </div>
-    <div class="lv">
-        <div class="boxc" style="background-color: #F36B21"> </div>
-        <div>Cấp 3</div>
-    </div>
-    <div class="lv">
-        <div class="boxc" style="background-color: #FEF22F"> </div>
-        <div>Cấp 2</div>
-    </div>
-    <div class="lv">
-        <div class="boxc" style="background-color: #43B549"> </div>
-        <div>Cấp 1</div>
-    </div>
-    {{!-- <div class="lv" onclick="addMarkers()">
-        <div>Them</div>
-    </div>
-    <div class="lv" onclick="removeMarkers()">
-        <div>Xoa</div>
-    </div> --}}
-</div>
 </div>

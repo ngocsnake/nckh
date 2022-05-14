@@ -26,7 +26,7 @@ class CovidData {
     async index(req, res, next) {
         const baseURL = req.protocol + "://" + req.get('host');
 
-        const Vaccin = await rp(baseURL + '/json/Vaccin.json')
+        const Vaccin = await rp(baseURL + '/json/Vaccin2.json')
             .then(data => JSON.parse(data))
             .catch(err => ({ message: err }));
 
@@ -34,8 +34,8 @@ class CovidData {
             .then(data => JSON.parse(data))
             .catch(err => ({ message: err }));
 
-        const Data = await rp(baseURL + '/api/province')
-        // const Data = await rp(baseURL + '/json/Province.json')
+        // const Data = await rp(baseURL + '/api/province')
+        const Data = await rp(baseURL + '/json/Province.json')
             .then(data => JSON.parse(data))
             .catch(err => ({ message: err }));
 

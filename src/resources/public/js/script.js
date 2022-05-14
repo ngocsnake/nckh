@@ -1,8 +1,8 @@
 function getColor(d) {
     return d > 100000 ? '#ED2625' :
         d > 10000 ? '#F36B21' :
-        d > 5000 ? '#FEF22F' :
-        '#43B549';
+            d > 5000 ? '#FEF22F' :
+                '#43B549';
 }
 
 function style(feature) {
@@ -61,21 +61,46 @@ googleStreets.addTo(map);
 ================================================*/
 async function loadMap() {
     const response = await fetch('/api/datacovid').then(response => response.json());
-    console.log(response);
     const datacovid = response.locations;
 
 
     const locations = response.locations;
+
+    const cityNames = locations.map(location => `<option value="${location.name}">`).join('');
+
+    document.querySelector('#browsers').innerHTML = cityNames;
+
+
     const overview = response.overview;
 
 
     lastUpdate(overview[6].date);
-    onClick(datacovid[0]);
+    onClick(datacovid[0]), false;
+
     const geojson = L.geoJSON(datacovid, { style: style }, { opacity: 1 }).addTo(map);
 
+
+
     geojson.on('click', layer => {
-        onClick(layer.layer.feature.geometry);
+        onClick(layer.layer.feature.geometry, true);
     });
+
+
+    document.querySelector('#browser').addEventListener('change', (e) => {
+
+        const citys = geojson._layers
+
+        for (const key in citys) {
+            if (Object.hasOwnProperty.call(citys, key)) {
+                const element = citys[key];
+
+
+                if (element.feature.geometry.name === e.target.value) {
+                    onClick(element.feature.geometry, true);
+                }
+            }
+        }
+    })
 
     locations.forEach(khuvuc => {
         const coordinates = [khuvuc.bbox[2], khuvuc.bbox[3], khuvuc.bbox[0], khuvuc.bbox[1]];
@@ -115,8 +140,16 @@ function removeLayer() {
     }
 }
 
-function onClick(data) {
+function onClick(data, fly) {
     removeLayer();
+
+    const lat = (data.bbox[1] + data.bbox[3]) / 2;
+    const lon = (data.bbox[0] + data.bbox[2]) / 2;
+
+    if (fly) {
+        map.flyTo([lat, lon])
+    };
+
 
     let cityName = data.name;
     cityName = cityName.replace('TP. ', '');
@@ -125,16 +158,17 @@ function onClick(data) {
     else {
         cityName = "Tỉnh " + cityName
     }
+    document.querySelector('#browser').value = "Tìm kiếm: " + cityName + '...';
     const city = document.querySelector('#cityname');
     const caduongtinh = document.querySelector('#ca-duong-tinh');
     const caduongtinhtrongngay = document.querySelector('#ca-duong-tinh-trong-ngay');
     const catuvong = document.querySelector('#ca-tu-vong');
-    const cahoiphuc = document.querySelector('#ca-hoi-phuc');
+    // const cahoiphuc = document.querySelector('#ca-hoi-phuc');
 
     const danso = document.querySelector('#dan-so');
     const tiemMui1 = document.querySelector('#tiem-mui-1');
     const tiemMui2 = document.querySelector('#tiem-mui-2');
-    const tiemMui3 = document.querySelector('#tiem-mui-3');
+    // const tiemMui3 = document.querySelector('#tiem-mui-3');
 
     const soCaNhiem = data.properties.cases;
 
@@ -142,12 +176,12 @@ function onClick(data) {
     caduongtinh.textContent = new Intl.NumberFormat().format(soCaNhiem);
     caduongtinhtrongngay.textContent = new Intl.NumberFormat().format(data.properties.casesToday);
     catuvong.textContent = new Intl.NumberFormat().format(data.properties.death);
-    cahoiphuc.textContent = new Intl.NumberFormat().format(0);
+    // cahoiphuc.textContent = new Intl.NumberFormat().format(0);
 
     danso.textContent = new Intl.NumberFormat().format(data.vaccin.population);
     tiemMui1.textContent = new Intl.NumberFormat().format(data.vaccin.totalOnceInjected);
     tiemMui2.textContent = new Intl.NumberFormat().format(data.vaccin.totalTwiceInjected);
-    tiemMui3.textContent = new Intl.NumberFormat().format(data.vaccin.totalThriceInjected);
+    // tiemMui3.textContent = new Intl.NumberFormat().format(data.vaccin.totalThriceInjected);
 
     level2s = L.geoJSON(data.level2s).addTo(map);
     // const level2s = L.geoJSON(data, { style: style }, { opacity: 1 }).addTo(map);

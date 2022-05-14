@@ -1,7 +1,41 @@
+var rp = require('request-promise');
+const jsdom = require("jsdom");
+const { JSDOM } = jsdom;
+
 class NewsController {
     // [GET] /news
-    index(req, res, next) {
-        res.render('news');
+    async index(req, res, next) {
+        const html = await fetch('https://covid19.gov.vn/chi-dao-chong-dich.htm')
+            .then(res => res.text())
+            .then(
+                res => {
+
+                    const dom = new JSDOM(res);
+
+                    const newPosts = dom.window.document.querySelector(".box-stream");
+
+                    return newPosts.innerHTML;
+                }
+            )
+
+        res.render('news', { html });
+    }
+    async detail(req, res, next) {
+        const link = 'https://covid19.gov.vn/' + req.params.detail;
+
+
+        const html = await fetch(link)
+            .then(response => response.text())
+            .then((response) => {
+
+                const dom = new JSDOM(response);
+
+                const a = dom.window.document.querySelector(".detail-main").innerHTML;
+
+                return a;
+            })
+
+        res.render('news', { html });
     }
 }
 
