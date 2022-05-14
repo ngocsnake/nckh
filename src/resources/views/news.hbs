@@ -40,8 +40,10 @@
 
     const aTags = document.querySelectorAll('.box-stream-link-title');
 
+    const host = window.location.host;
+
     aTags.forEach(a => {
         console.log(a);
-        a.href = a.href.replace('http://localhost:3003', 'http://localhost:3003/news');
+        a.href = a.href.replace(host, host + '/news');
     })
 </script>
