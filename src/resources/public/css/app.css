@@ -47,9 +47,27 @@ a {
     display: flex;
     height: calc(100vh - 80px);
 }
-#body-content{
+
+#footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    position: absolute;
+    bottom: 0;
     width: 100%;
+    background-color: rgb(241, 241, 241);
+    z-index: 10000;
+    font-size: 15px;
+    font-weight: bold;
+    border-top: 1px solid #ccc;
 }
+
+#body-content {
+    width: 100%;
+    position: relative;
+}
+
 #navbar {
     height: 100%;
     width: 62px !important;
@@ -79,7 +97,7 @@ a {
 #info {
     right: 0;
     width: var(--width);
-    height: calc(100% - 80px);
+    height: calc(100% - 30px);
     position: absolute;
     padding: 10px;
     display: flex;
@@ -115,10 +133,11 @@ a {
 
 .table1 {
     border-right: 1px solid rgba(0, 0, 0, 0.4);
+    width: 140% !important;
 }
 
 #map {
-    inset: 80px var(--width) 0px var(--navbarw);
+    inset: 0 var(--width) 0px 0;
     position: absolute;
     /* border: 1px solid black; */
 }
@@ -132,7 +151,7 @@ a {
 #tiem-mui-2,
 #tiem-mui-3 {
     font-weight: bold;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 #ca-duong-tinh,
@@ -205,7 +224,7 @@ a {
     align-items: center;
     justify-content: space-around;
     left: 10px;
-    bottom: 10px;
+    bottom: 50px;
     z-index: 800;
     border: 1px solid #B8B8B8;
     border-radius: 5px;

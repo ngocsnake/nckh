@@ -129,7 +129,7 @@ var level2s = {};
 
 function lastUpdate(time) {
     const lastUpdate = document.querySelector('#lastUpdate');
-    lastUpdate.textContent = "Cập nhật lần cuối vào 17h59' ngày " + time + "-2022";
+    lastUpdate.textContent = "Số liệu cập nhật từ 12-2019 đến " + time + "-2022";
 }
 
 function removeLayer() {
