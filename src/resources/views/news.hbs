@@ -1,11 +1,18 @@
 <style>
     #root {
-        padding: 30px;
         max-height: 100%;
         overflow-y: auto;
     }
 
-    #root * {
+    #l {
+        width: 60%;
+    }
+
+    #r {
+        width: 40%;
+    }
+
+    #news * {
         color: #333333;
     }
 
@@ -20,20 +27,127 @@
 
     .box-stream-item {
         display: flex;
-        margin-bottom: 30px;
         border-bottom: 1px solid #ccc;
-        padding-bottom: 10px;
+        padding: 20px;
     }
 
     .box-stream-content {
         padding: 0 20px;
     }
+
+    .l-title {
+        display: flex;
+        align-items: center;
+        padding: 10px 15px;
+        background-color: #4792D3;
+        color: white !important;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+        border-radius: 0 0 10px 10px / 0 0 10px 10px;
+    }
+
+    a {
+        color: black !important;
+    }
+
+    #navbar-i {
+        display: flex;
+        align-items: center;
+        padding: 10px 15px;
+        gap: 35px;
+        text-transform: uppercase;
+        width: 100%;
+        font-weight: bold;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+
+    #preview {
+        display: flex;
+        padding: 15px;
+        gap: 40px;
+    }
 </style>
 
-
-
 <div id="root">
-    {{{html}}}
+    <div id="navbar-i">
+        <div><a href="/">Trang Chủ</a></div>
+        <div><a href="#news">Bài Viết</a></div>
+        <div><a href="#footer">Chi Tiết</a></div>
+    </div>
+    <div id="preview">
+        <div>
+            <img src="/img/doankiemtra.jpg" alt="Đoàn kiểm tra">
+            <br>
+            <i>Hình ảnh: Tiểu ban Y tế thực hiện kiểm tra một số cơ sở y tế phục vụ chữa trị Covid-19</i>
+        </div>
+        <div>
+            <div style="padding: 10px 15px; background-color: #2777BC; color: white; margin-bottom: 15px">TIN NỔI BẬT</div>
+            <li>
+                Tiểu ban Y tế và Kiểm tra Doping kiểm tra công tác đảm bảo an toàn y tế phục vụ SEA Games 31
+            </li>
+            <br>
+            <li>
+                Thứ trưởng Trần Văn Thuấn tham dự Hội nghị Bộ trưởng Y tế ASEAN lần thứ 15 (AHMM15) và các Hội nghị liên
+                quan tại Bali, Indonesia 13 – 16/5/2022
+            </li>
+            <br>
+            <li>
+                Tăng cường khả năng tiếp cận với dịch vụ khám chữa bệnh chất lượng cao và phù hợp với thông lệ quốc tế
+            </li>
+            <br>
+            <li>
+                Bộ Y tế tiếp nhận 7,2 triệu liều vaccine do Australia tài trợ để cho trẻ em từ 5 đến dưới 12 tuổi
+            </li>
+            <br>
+            <li>
+                Bộ Y tế quán triệt, truyền thông về quyền lợi của người dân đối với giấy xác nhận tiêm chủng COVID-19 và
+                “Hộ
+                chiếu vắc xin”
+            </li>
+        </div>
+        <div>
+            <img src="/img/5k.jpg"  width="300">
+        </div>
+    </div>
+
+    <div style="display: flex; justify-content: space-around">
+        <img src="/img/1.png" height="100">
+        <img src="/img/2.jpg" height="100">
+        <img src="/img/3.jpg" height="100">
+    </div>
+
+    <div id="news">
+        <div style="padding: 10px 15px; background-color: #2777BC; color: white; margin-top: 40px">
+            TIN COVID MỚI
+        </div>
+        {{{html}}}
+    </div>
+
+    <style>
+        .footer-h {
+            display: flex;
+            padding: 10px 15px;
+            background-color: #2777BC;
+            gap: 37px;
+        }
+    </style>
+    <div id="footer" style="color: white">
+        <div class="footer-h">
+            <div>Chi tiết</div>
+        </div>
+        <div style="display: flex; gap: 57px; padding: 20px 15px; background-color: #135894; line-height: 2;">
+            <div>
+                Đề tài: Xây dựng ứng dụng tra cứu và cảnh báo dịch bệnh COVID19 tại Việt Nam.<br>
+                Nhóm thực hiện: Lớp DH9C5<br>
+                ĐT: 0969.082.115 - 0948.396.115<br>
+            </div>
+
+            <div>
+                Email: 0hshyt1912@gmail.com<br>
+                <i>Có tham khảo một số thông tin từ Bộ Y tế.</i><br>
+            </div>
+        </div>
+    </div>
 </div>
 
 <script>
@@ -43,7 +157,6 @@
     const host = window.location.host;
 
     aTags.forEach(a => {
-        console.log(a);
         a.href = a.href.replace(host, host + '/news');
     })
 </script>

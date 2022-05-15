@@ -77,7 +77,7 @@ async function loadMap() {
     lastUpdate(overview[6].date);
     onClick(datacovid[0]), false;
 
-    const geojson = L.geoJSON(datacovid, { style: style }, { opacity: 1 }).addTo(map);
+    geojson = L.geoJSON(datacovid, { style: style }, { opacity: 1 }).addTo(map);
 
 
 
@@ -125,7 +125,8 @@ async function loadMap() {
 }
 loadMap();
 
-var level2s = {};
+let level2s = {};
+let geojson = {};
 
 function lastUpdate(time) {
     const lastUpdate = document.querySelector('#lastUpdate');
@@ -133,6 +134,7 @@ function lastUpdate(time) {
 }
 
 function removeLayer() {
+    console.log(level2s);
     if (level2s.options) {
         level2s.eachLayer(layer => {
             level2s.removeLayer(layer)
@@ -147,7 +149,7 @@ function onClick(data, fly) {
     const lon = (data.bbox[0] + data.bbox[2]) / 2;
 
     if (fly) {
-        map.flyTo([lat, lon])
+        map.flyTo([lat, lon]);
     };
 
 
@@ -183,7 +185,8 @@ function onClick(data, fly) {
     tiemMui2.textContent = new Intl.NumberFormat().format(data.vaccin.totalTwiceInjected);
     // tiemMui3.textContent = new Intl.NumberFormat().format(data.vaccin.totalThriceInjected);
 
-    level2s = L.geoJSON(data.level2s).addTo(map);
+    // level2s = L.geoJSON(data.level2s, {style: {...style, color: '#41B14C'}} , { opacity: 1 }).addTo(map);
+    level2s = L.geoJSON(data.level2s, {style: style} , { opacity: 1 }).addTo(map);
     // const level2s = L.geoJSON(data, { style: style }, { opacity: 1 }).addTo(map);
 
     const diaPhuong = data.level2s;

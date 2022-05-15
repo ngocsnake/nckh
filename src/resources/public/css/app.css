@@ -48,21 +48,6 @@ a {
     height: calc(100vh - 80px);
 }
 
-#footer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 30px;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    background-color: rgb(241, 241, 241);
-    z-index: 10000;
-    font-size: 15px;
-    font-weight: bold;
-    border-top: 1px solid #ccc;
-}
-
 #body-content {
     width: 100%;
     position: relative;
@@ -97,7 +82,7 @@ a {
 #info {
     right: 0;
     width: var(--width);
-    height: calc(100% - 30px);
+    height: calc(100%);
     position: absolute;
     padding: 10px;
     display: flex;
